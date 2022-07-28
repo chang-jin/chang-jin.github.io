@@ -73,11 +73,11 @@ permalink: "/research/"
 
 <tr>
 
-<td class="first">![AI Featured Image](./assets/ai_featured_image-300x286.jpg "AI Featured Image")</td>
+<td class="first">![AI Featured Image]("./assets/ai_featured_image-300x286.jpg")</td>
 
 <td>
 
-## [Machine Learning Training and Inference](http://spl.snu.ac.kr/portfolio-items/artificial-intelligence-platform/)
+## [Machine Learning Training and Inference]("http://spl.snu.ac.kr/portfolio-items/artificial-intelligence-platform/")
 
 In recent years, many systems for machine learning (e.g., TensorFlow, Caffe2, MXNet) have been proposed to support sophisticated deep learning models and a large amount of data. Yet, such systems lack parallelizing machine learning models easily, handling complex neural networks intuitively, tuning system configurations automatically, etc. We perform research on improving the performance and expressiveness of machine learning frameworks.
 
@@ -98,7 +98,7 @@ In recent years, many systems for machine learning (e.g., TensorFlow, Caffe2, MX
 <tr>
 
 <td class="first">
-  ![Big Data Engines](./assets/2-Big-Data-Engines-500X500-300x300.jpg)
+  ![Big Data Engines]("./assets/2-Big-Data-Engines-500X500-300x300.jpg")
 </td>
 
 <td class="second">
@@ -128,7 +128,7 @@ The data processing system domain has evolved for a wide variety of resource and
 
 <tr>
 
-<td class="first">![ApacheREEF](./assets/ApacheREEF_logo_no_margin-300x145.png "ApacheREEF")</td>
+<td class="first">![ApacheREEF]("./assets/ApacheREEF_logo_no_margin-300x145.png")</td>
 
 <td class="second">
 
