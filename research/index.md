@@ -64,7 +64,6 @@ author:
 permalink: "/research/"
 ---
 <h2>Current Projects</h2>
-![AI Featured Image](assets/ai_featured_image-300x286.jpg)
 
 <h3>Artificial Intelligence Platform and Algorithm</h3>
 
@@ -74,7 +73,9 @@ permalink: "/research/"
 
 <tr>
 
-<td class="first">![AI Featured Image](assets/ai_featured_image-300x286.jpg)</td>
+<td class="first">
+  <img src="assets/ai_featured_image-300x286.jpg"></img>
+</td>
 
 <td>
 
@@ -99,7 +100,7 @@ In recent years, many systems for machine learning (e.g., TensorFlow, Caffe2, MX
 <tr>
 
 <td class="first">
-  ![Big Data Engines]("./assets/2-Big-Data-Engines-500X500-300x300.jpg")
+  <img src="assets/2-Big-Data-Engines-500X500-300x300.jpg"></img>
 </td>
 
 <td class="second">
@@ -129,7 +130,9 @@ The data processing system domain has evolved for a wide variety of resource and
 
 <tr>
 
-<td class="first">![ApacheREEF](assets/ApacheREEF_logo_no_margin-300x145.png)</td>
+<td class="first">
+  <img src="assets/ApacheREEF_logo_no_margin-300x145.png"></img>
+</td>
 
 <td class="second">
 
@@ -143,9 +146,12 @@ Apache REEF (Retainable Evaluator Execution Framework) is a library that simplif
 
 <tr>
 
-<td>![3_data_centric_lowr](./assets/3_data_centric_lowr-300x244.jpg "3_data_centric_lowr")</td>
 
-<td>
+<td class="first">
+  <img src="assets/3_data_centric_lowr-300x244.jpg"></img>
+</td>
+
+<td class="second">
 
 ## [MIST: High-Performance IoT Stream Processing](http://spl.snu.ac.kr/portfolio-items/stream-processing/)
 
@@ -157,7 +163,9 @@ Stream processing systems are widely used to execute stream queries that extract
 
 <tr>
 
-<td class="first">![4-New-Security-Architecture](./assets/4-New-Security-Architecture-1000X470-300x225.jpg"4-New-Security-Architecture")</td>
+<td class="first">
+  <img src="assets/4-New-Security-Architecture-1000X470-300x225.jpg"></img>
+</td>
 
 <td class="second">
 
@@ -171,11 +179,13 @@ We perform research on analyzing mobile applications and malware and coming up w
 
 <tr>
 
-<td class="first">![mobile_cloud_main](./assets/mobile_cloud_main-300x243.jpg "mobile_cloud_main")</td>
+<td class="first">
+  <img src="assets/mobile_cloud_main-300x243.jpg"></img>
+</td>
 
 <td class="second">
 
-## [Mobile Cloud Computing](http://spl.snu.ac.kr/portfolio-items/mobius-unified-messaging-and-data-serving-for-mobile-apps/)
+<a href="http://spl.snu.ac.kr/portfolio-items/mobius-unified-messaging-and-data-serving-for-mobile-apps/">Mobile Cloud Computing</a>
 
 Mobius & CloneCloud
 
