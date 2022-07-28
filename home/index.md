@@ -74,17 +74,18 @@ author:
   last_name: ''
 permalink: "/"
 ---
-<p>[separator top="-30"]</p>
-<p>[three_fourth last="no"]</p>
-<p><img src="{{ site.baseurl }}/assets/2012/07/spl_landing_logo-e1535010526726.png" /></p>
-<p>[separator top="50"]</p>
+![SPL Landing Logo](./assets/spl_landing_logo-e1535010526726.png)
+
 <div id="reading-box-container-1" class="reading-box-container clearfix">
+
 <section class="reading-box " style="background-color: #f6f6f6 !important; border-left-width: 3px !important; border-left-color: #12a5f4!important; border: 0px solid #f6f6f6!important;">
-<p class="description-home">At Software Platform Lab (SPL), we work on machine learning systems and algorithms, and data processing systems. We publish our research work at top venues in systems, database, and artificial intelligence. We also contribute to open-source software projects actively.</p>
+
+At Software Platform Lab (SPL), we work on machine learning systems and algorithms, and data processing systems. We publish our research work at top venues in systems, database, and artificial intelligence. We also contribute to open-source software projects actively.
+
 </section>
+
 </div>
-<p>[/three_fourth]</p>
-<p>[one_fourth last="yes"]</p>
-<p>[title size="2"]Latest Updates[/title]<br />
-[recent_posts columns="1" number_posts="6" cat_id="" thumbnail="yes" title="yes" meta="yes" excerpt="no"][/recent_posts]</p>
-<p>[/one_fourth]</p>
+
+## Latest Updates
+
+[recent_posts columns="1" number_posts="6" cat_id="" thumbnail="yes" title="yes" meta="yes" excerpt="no"][/recent_posts]
