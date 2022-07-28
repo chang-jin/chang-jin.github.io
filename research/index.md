@@ -73,7 +73,7 @@ permalink: "/research/"
 
 <tr>
 
-<td class="first">![AI Featured Image](./assets/ai_featured_image-300x286.jpg "AI Featured Image"))</td>
+<td class="first">![AI Featured Image](./assets/ai_featured_image-300x286.jpg))</td>
 
 <td>
 
@@ -98,7 +98,7 @@ In recent years, many systems for machine learning (e.g., TensorFlow, Caffe2, MX
 <tr>
 
 <td class="first">
-  ![Big Data Engines](./assets/2-Big-Data-Engines-500X500-300x300.jpg "Big Data Engines"))
+  ![Big Data Engines](./assets/2-Big-Data-Engines-500X500-300x300.jpg))
 </td>
 
 <td class="second">
