@@ -74,8 +74,6 @@ author:
   last_name: ''
 permalink: "/"
 ---
-[separator top="-30"]
-
 [three_fourth last="no"]
 
 ![]({{ site.baseurl }}/assets/2012/07/spl_landing_logo-e1535010526726.png)
@@ -96,7 +94,7 @@ At Software Platform Lab (SPL), we work on machine learning systems and algorith
 
 [one_fourth last="yes"]
 
-[title size="2"]Latest Updates[/title]  
+<h2>Latest Updates</h2>  
 [recent_posts columns="1" number_posts="6" cat_id="" thumbnail="yes" title="yes" meta="yes" excerpt="no"][/recent_posts]
 
 [/one_fourth]

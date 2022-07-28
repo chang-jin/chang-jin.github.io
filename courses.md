@@ -64,9 +64,6 @@ author:
   last_name: ''
 permalink: "/courses/"
 ---
-[separator top="10"]  
-[title size="2"]Courses[/title]
-
 **[Big Data and Deep Learning Systems, Fall 2017 (Grad)](https://github.com/swsnu/bd2017)**  
 This course teaches recent work on data processing and machine learning systems. Topics include resource management, dataflow processing, data processing programming, stream processing, graph processing, machine learning, deep learning, distributed store, etc. The students read research papers and submit paper reviews, do a few programming assignments to deepen the knowledge on data processing, and work on semester-long projects on the topics they propose.
 
