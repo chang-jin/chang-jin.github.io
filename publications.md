@@ -71,8 +71,6 @@ author:
   last_name: ''
 permalink: "/publications/"
 ---
-[separator top="10"]
-
 <h2>2022</h2>
 
 **Hippo: Sharing Computations in Hyper-Parameter Optimization [[pdf](https://vldb.org/pvldb/vol15/p1038-shin.pdf)]**  
@@ -96,7 +94,8 @@ Joo Seong Jeong, Jingyu Lee, Donghyun Kim, Changmin Jeon, Changjin Jeong, Youngk
 **SUMNAS: Supernet with Unbiased Meta-Features for Neural Architecture Search [[pdf](https://openreview.net/pdf?id=Z8FzvVU6_Kj)]**  
 Hyeonmin Ha, Ji-Hoon Kim, Semin Park, Byung-Gon Chun. To appear in ICLR 2022.
 
-<h2>2021</h2>  
+<h2>2021</h2>
+
 **Terra: Imperative-Symbolic Co-Execution of Imperative Deep Learning Programs [[pdf](https://proceedings.neurips.cc/paper/2021/file/0b32f1a9efe5edf3dd2f38b0c0052bfe-Paper.pdf)]**  
 Taebum Kim, Eunji Jeong, Geon-Woo Kim, Yunmo Koo, Sehoon Kim, Gyeong-In Yu, Byung-Gon Chun. 35th Conference on Neural Information Processing Systems (NeurIPS 2021), December 2021.
 
@@ -118,7 +117,8 @@ Taegeon Um, Gyewon Lee, Byung-Gon Chun. IEEE 41th International Conference on Di
 **Harmony: A Scheduling Framework Optimized for Multiple Distributed Machine Learning Jobs**  
 Woo-Yeon Lee, Yunseong Lee, Wonwook Song, Youngseok Yang, Joo Yeon Kim, Byung-Gon Chun. IEEE 41th International Conference on Distributed Computing Systems (ICDCS 2021), July 2021.
 
-<h2>2020</h2>  
+<h2>2020</h2>
+
 **Nimble: Lightweight and Parallel GPU Task Scheduling for Deep Learning [[pdf](https://proceedings.neurips.cc/paper/2020/file/5f0ad4db43d8723d18169b2e4817a160-Paper.pdf)]**  
 Woosuk Kwon*, Gyeong-In Yu*, Eunji Jeong, Byung-Gon Chun (*equal contribution). 34th Conference on Neural Information Processing Systems (NeurIPS 2020) (_Spotlight_), December 2020.
 
@@ -191,39 +191,39 @@ Yunseong Lee, Alberto Scolari, Matteo Interlandi, Markus Weimer, Byung-Gon Chun.
 **Towards High-Performance Prediction Serving Systems [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/2017-NIPS-LearningSys-Scoring.pdf)]**  
 Yunseong Lee, Alberto Scolari, Matteo Interlandi, Markus Weimer, Byung-Gon Chun. Towards High-Performance Prediction Serving Systems. ML Systems Workshop at NIPS 2017, December 2017.
 
-**Auto-Parallelizing Deep Learning for Multi-machine, Multi-GPU Environments [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/Parallax-11.pdf)]  
-**Soojeong Kim, Eunji Jeong, Joo Seong Jeong, Gyeongin Yu, Hojin Park, Byung-Gon Chun. Auto-Parallelizing Deep Learning for Multi-machine, Multi-GPU Environments. Workshop on AI Systems at Symposium on Operating Systems Principles 2017, October 2017.
+**Auto-Parallelizing Deep Learning for Multi-machine, Multi-GPU Environments [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/Parallax-11.pdf)]**
+Soojeong Kim, Eunji Jeong, Joo Seong Jeong, Gyeongin Yu, Hojin Park, Byung-Gon Chun. Auto-Parallelizing Deep Learning for Multi-machine, Multi-GPU Environments. Workshop on AI Systems at Symposium on Operating Systems Principles 2017, October 2017.
 
-**Apache REEF: Retainable Evaluator Execution Framework [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/a5-chun-1.pdf)]  
-**Byung-Gon Chun, Tyson Condie, Yingda Chen, Brian Cho, Andrew Chung, Carlo Curino, Chris Douglas, Matteo Interlandi, Beomyeol Jeon, Joo Seong Jeong, Gye-Won Lee, Yunseong Lee, Tony Majestro, Dahlia Malkhi, Sergiy Matusevych, Brandon Myers, Mariia Mykhailova, Shravan Narayanamurthy, Joseph Noor, Raghu Ramakrishnan, Sriram Rao, Russell Sears, Beysim Sezgin, Tae-Geon Um, Julia Wang, Markus Weimer, Markus Weimer, Youngseok Yang. Apache REEF: Retainable Evaluator Execution Framework. ACM Transactions on Computer Systems (TOCS 2017), October 2017.
+**Apache REEF: Retainable Evaluator Execution Framework [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/a5-chun-1.pdf)]**
+Byung-Gon Chun, Tyson Condie, Yingda Chen, Brian Cho, Andrew Chung, Carlo Curino, Chris Douglas, Matteo Interlandi, Beomyeol Jeon, Joo Seong Jeong, Gye-Won Lee, Yunseong Lee, Tony Majestro, Dahlia Malkhi, Sergiy Matusevych, Brandon Myers, Mariia Mykhailova, Shravan Narayanamurthy, Joseph Noor, Raghu Ramakrishnan, Sriram Rao, Russell Sears, Beysim Sezgin, Tae-Geon Um, Julia Wang, Markus Weimer, Markus Weimer, Youngseok Yang. Apache REEF: Retainable Evaluator Execution Framework. ACM Transactions on Computer Systems (TOCS 2017), October 2017.
 
-**Scaling Up IoT Stream Processing [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/mist.pdf)]  
-**Taegeon Um, Gyewon Lee, Sanha Lee, Kyungtae Kim, Byung-Gon Chun. Scaling Up IoT Stream Processing. 8th ACM SIGOPS Asia-Pacific Workshop on Systems (APSys 2017), September 2017.
+**Scaling Up IoT Stream Processing [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/mist.pdf)]**
+Taegeon Um, Gyewon Lee, Sanha Lee, Kyungtae Kim, Byung-Gon Chun. Scaling Up IoT Stream Processing. 8th ACM SIGOPS Asia-Pacific Workshop on Systems (APSys 2017), September 2017.
 
-**Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/p575-Yang.pdf)]  
-**Youngseok Yang, Geon-Woo Kim, Won Wook Song, Yunseong Lee, Andrew Chung, Zhengping Qian, Brian Cho, Byung-Gon Chun. Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters. 12th European Conference on Computer Systems (EuroSys 2017), April 2017.
+**Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/p575-Yang.pdf)]**
+Youngseok Yang, Geon-Woo Kim, Won Wook Song, Yunseong Lee, Andrew Chung, Zhengping Qian, Brian Cho, Byung-Gon Chun. Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters. 12th European Conference on Computer Systems (EuroSys 2017), April 2017.
 
-**Breaking Ad-hoc Runtime Integrity Protection Mechanisms in Android Financial Apps [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/p179-kim.pdf)]  
-**Taehun Kim, Hyeonmin Ha, Seoyoon Choi, Jaeyeon Jung, Byung-Gon Chun. Breaking Ad-hoc Runtime Integrity Protection Mechanisms in Android Financial Apps. ACM Asia Conference on Computer and Communications Security (ASIACCS 2017), April 2017.
+**Breaking Ad-hoc Runtime Integrity Protection Mechanisms in Android Financial Apps [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/p179-kim.pdf)]**
+Taehun Kim, Hyeonmin Ha, Seoyoon Choi, Jaeyeon Jung, Byung-Gon Chun. Breaking Ad-hoc Runtime Integrity Protection Mechanisms in Android Financial Apps. ACM Asia Conference on Computer and Communications Security (ASIACCS 2017), April 2017.
 
 <h2>2016</h2>
 
-**Dolphin: Runtime Optimization for Distributed Machine Learning [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/2016-ICML-LearningSys-Dolphin.pdf)]  
-**Byung-Gon Chun, Brian Cho, Beomyeol Jeon, Joo Seong Jeong, Gunhee Kim, Joo Yeon Kim, Woo-Yeon Lee, Yun Seong Lee, Markus Weimer, Gyeong-In Yu. Dolphin: Runtime Optimization for Distributed Machine Learning. ICML ML Sys '16 workshop, June 2016.
+**Dolphin: Runtime Optimization for Distributed Machine Learning [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/2016-ICML-LearningSys-Dolphin.pdf)]**
+Byung-Gon Chun, Brian Cho, Beomyeol Jeon, Joo Seong Jeong, Gunhee Kim, Joo Yeon Kim, Woo-Yeon Lee, Yun Seong Lee, Markus Weimer, Gyeong-In Yu. Dolphin: Runtime Optimization for Distributed Machine Learning. ICML ML Sys '16 workshop, June 2016.
 
-****Collaborative Analytics for Data Silos **  
-**Jinkyu Kim, Heonseok Ha, Byung-Gon Chun, Sungroh Yoon, Sang K. Cha. Collaborative Analytics for Data Silos. 32nd IEEE International Conference on Data Engineering (ICDE 2016), May 2016.
+**Collaborative Analytics for Data Silos**
+Jinkyu Kim, Heonseok Ha, Byung-Gon Chun, Sungroh Yoon, Sang K. Cha. Collaborative Analytics for Data Silos. 32nd IEEE International Conference on Data Engineering (ICDE 2016), May 2016.
 
 <h2>2015</h2>
 
-****Characterizing Conversation Patterns in Reddit: From the Perspectives of Content Properties and User Participation Behaviors**  
-**Daejin Choi, Jinyoung Han, Taejoong Chung, Yong-Yeol Ahn, Byung-Gon Chun, Ted “Taekyoung” Kwon. Characterizing Conversation Patterns in Reddit: From the Perspectives of Content Properties and User Participation Behaviors. ACM Conference on Online Social Networks (COSN 2015), November 15.
+**Characterizing Conversation Patterns in Reddit: From the Perspectives of Content Properties and User Participation Behaviors**  
+Daejin Choi, Jinyoung Han, Taejoong Chung, Yong-Yeol Ahn, Byung-Gon Chun, Ted “Taekyoung” Kwon. Characterizing Conversation Patterns in Reddit: From the Perspectives of Content Properties and User Participation Behaviors. ACM Conference on Online Social Networks (COSN 2015), November 15.
 
 **Mantis: Efficient Predictions of Execution Time, Energy Usage, Memory Usage and Network Usage on Smart Mobile Devices**  
 Sanguine Lee, Hayoon Yi, Donghyun Kwon, Seungjun Yang, Byung-Gon Chun, Ling Huang, Petros Maniatis, Mayur Naik, Yunheung Paek. Mantis: Efficient Predictions of Execution Time, Energy Usage, Memory Usage and Network Usage on Smart Mobile Devices. IEEE Transactions on Mobile Computing, August 2015.
 
-**REEF: Retainable Evaluator Execution Framework [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/2015-SIGMOD.pdf)]  
-**<span style="line-height: 1.5;">Markus Weimer, Yingda Chen, Byung-Gon Chun, Tyson Condie, Carlo Curino, Chris Douglas, Yunseong Lee, Tony Majestro, Dahlia Malkhi , Sergiy Matusevych, Brandon Myers, Shravan Narayanamurthy, Raghu Ramakrishnan, Sriram Rao, Russell Sears, Beysim Sezgin, Julia Wang. REEF: Retainable Evaluator Execution Framework.</span><span style="line-height: 1.5;">ACM SIGMOD, June 2015.</span>
+**REEF: Retainable Evaluator Execution Framework [[pdf](http://spl.snu.ac.kr/wp-content/uploads/2017/11/2015-SIGMOD.pdf)]**
+<span style="line-height: 1.5;">Markus Weimer, Yingda Chen, Byung-Gon Chun, Tyson Condie, Carlo Curino, Chris Douglas, Yunseong Lee, Tony Majestro, Dahlia Malkhi , Sergiy Matusevych, Brandon Myers, Shravan Narayanamurthy, Raghu Ramakrishnan, Sriram Rao, Russell Sears, Beysim Sezgin, Julia Wang. REEF: Retainable Evaluator Execution Framework.</span><span style="line-height: 1.5;">ACM SIGMOD, June 2015.</span>
 
 **Elastic Memory: Bring Elasticity Back To In-Memory Big Data Analytics [[pdf](https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-jeong.pdf)]**  
 Joo Seong Jeong, Woo-Yeon Lee, Yunseong Lee, Youngseok Yang, Brian Cho, Byung-Gon Chun. Elastic Memory: Bring Elasticity Back To In-Memory Big Data Analytics. 15th Workshop on Hot Topics in Operating Systems (HotOS 2015), May 2015.
@@ -233,10 +233,11 @@ Kay Ousterhout, Ryan Rasti, Sylvia Ratnasamy, Scott Shenker, Byung-Gon Chun. Mak
 
 <h2>2014</h2>
 
-**TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones **  
+**TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones**  
 William Enck, Peter Gilbert, Seungyeop Han, Vasant Tendulkar, Byung-Gon Chun, Landon P. Cox, Jaeyeon Jung, Patrick McDaniel, Anmol Sheth. TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones. ACM Transactions on Computer Systems (TOCS 2014), June 2014.
 
-**Collecting, Organizing and Sharing Pins in Pinterest: Interest-driven or Social-driven? **Jinyoung Han, Daejin Choi, Byung-Gon Chun, Ted “Taekyoung” Kwon, Hyun-chul Kim, Yanghee Choi. Collecting, Organizing and Sharing Pins in Pinterest: Interest-driven or Social-driven? ACM International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS 2014), June 2014.
+**Collecting, Organizing and Sharing Pins in Pinterest: Interest-driven or Social-driven?**
+Jinyoung Han, Daejin Choi, Byung-Gon Chun, Ted “Taekyoung” Kwon, Hyun-chul Kim, Yanghee Choi. Collecting, Organizing and Sharing Pins in Pinterest: Interest-driven or Social-driven? ACM International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS 2014), June 2014.
 
 **TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones**  
 William Enck, Peter Gilbert, Byung-Gon Chun, Landon P. Cox, Jaeyeon Jung, Patrick McDaniel, Anmol N. Sheth. TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones. Communications of the ACM (CACM 2014), _Research Highlights_, March 2014.
@@ -388,71 +389,71 @@ Kyunggeun Lee and Byung-Gon Chun, KSC, December 2019
 **Challenges in Memory Optimization for Deep Learning Model Training**  
 Jeongyoon Eo, Taegeon Um, and Byung-Gon Chun, KSC, December 2019
 
-**Serverless Computing: Pitfalls and Solutions  
-**Zhiyuan Gao, Taegeon Um, and Byung-Gon Chun, KCC, June 2019
+**Serverless Computing: Pitfalls and Solutions**
+Zhiyuan Gao, Taegeon Um, and Byung-Gon Chun, KCC, June 2019
 
-**Investigating Inefficiencies and Proposing Improvements towards Real-Time Action Recognition with Two-Stream Networks  
-**Haa Kyung Lee, Yunseong Lee, and Byung-Gon Chun, KCC, June 2019
+**Investigating Inefficiencies and Proposing Improvements towards Real-Time Action Recognition with Two-Stream Networks**
+Haa Kyung Lee, Yunseong Lee, and Byung-Gon Chun, KCC, June 2019
 
-**Our Experiences on Enabling Advanced Storage and Network I/O via Apache Crail for Distributed Data Processing System  
-**Haeyoon Cho, Jeongyoon Eo, and Byung-Gon Chun, KCC, June 2019
+**Our Experiences on Enabling Advanced Storage and Network I/O via Apache Crail for Distributed Data Processing System**
+Haeyoon Cho, Jeongyoon Eo, and Byung-Gon Chun, KCC, June 2019
 
-**Effectiveness of Using Off-heap Memory in Java Virtual Machine-based Stream Processing System  
-**Jangho Seo, Won Wook Song, and Byung-Gon Chun, KCC, June 2019
+**Effectiveness of Using Off-heap Memory in Java Virtual Machine-based Stream Processing System**
+Jangho Seo, Won Wook Song, and Byung-Gon Chun, KCC, June 2019
 
-**Latency and Completeness Compare Between Event-time Processing and Processing-time Processing on Stream Processing System  
-**Jueun Lee, Gyewon Lee, and Byung-Gon Chun, KCC, June 2019
+**Latency and Completeness Compare Between Event-time Processing and Processing-time Processing on Stream Processing System**
+Jueun Lee, Gyewon Lee, and Byung-Gon Chun, KCC, June 2019
 
-**Performance Analysis of Apache Flink with RocksDB on Stream Queries with List State  
-**Gyewon Lee and Byung-Gon Chun, KSC, December 2018
+**Performance Analysis of Apache Flink with RocksDB on Stream Queries with List State**
+Gyewon Lee and Byung-Gon Chun, KSC, December 2018
 
-**Survey on Distributed Training in Imperative Deep Learning Frameworks  
-**DongJin Shin and Byung-Gon Chun, KSC, December 2018
+**Survey on Distributed Training in Imperative Deep Learning Frameworks**
+DongJin Shin and Byung-Gon Chun, KSC, December 2018
 
-**Recent Trends in Resource Management Systems for Distributed Deep Learning Training  
-**Sungwoo Cho and Byung-Gon Chun, KSC, December 2018
+**Recent Trends in Resource Management Systems for Distributed Deep Learning Training**
+Sungwoo Cho and Byung-Gon Chun, KSC, December 2018
 
-**A Survey on Model-Parallel Techniques for Deep Learning Models  
-**Soojeong Kim and Byung-Gon Chun, KSC, December 2018
+**A Survey on Model-Parallel Techniques for Deep Learning Models**
+Soojeong Kim and Byung-Gon Chun, KSC, December 2018
 
-**Dynamic Optimization Policies in Distributed Data Processing Frameworks  
-**Youngseok Yang and Byung-Gon Chu, KSC, December 2018
+**Dynamic Optimization Policies in Distributed Data Processing Frameworks**
+Youngseok Yang and Byung-Gon Chu, KSC, December 2018
 
-**Survey of Deep Learning Workload Support in Apache Spark  
-**Woo-Yeon Lee and Byung-Gon Chun, KSC, December 2018
+**Survey of Deep Learning Workload Support in Apache Spark**
+Woo-Yeon Lee and Byung-Gon Chun, KSC, December 2018
 
-**Our Experiences on Creating an Apache Beam Runner for Distributed Data Processing  
-**Won Wook Song and Byung-Gon Chun, KSC, December 2018
+**Our Experiences on Creating an Apache Beam Runner for Distributed Data Processing**
+Won Wook Song and Byung-Gon Chun, KSC, December 2018
 
-**Impact of Compressing Shuffle Data on Data Analytics Workload  
-**Jangho Seo and Byung-Gon Chun, KSC, December 2018
+**Impact of Compressing Shuffle Data on Data Analytics Workload**
+Jangho Seo and Byung-Gon Chun, KSC, December 2018
 
-**Mitigating the Cold-Start Problem of Serverless Computation  
-**Taegeon Um and Byung-Gon Chun, KSC, December 2018
+**Mitigating the Cold-Start Problem of Serverless Computation**
+Taegeon Um and Byung-Gon Chun, KSC, December 2018
 
-**Adversarial Example Generation for DNNs with Non-differentiable Objective Functions  
-**Hyeonmin Ha and Byung-Gon Chun, KSC, December 2018
+**Adversarial Example Generation for DNNs with Non-differentiable Objective Functions**
+Hyeonmin Ha and Byung-Gon Chun, KSC, December 2018
 
-**Recent Trends in Resource Disaggregation for Datacenters  
-**Jeongyoon Eo and Byung-Gon Chun, KCC, June 2018
+**Recent Trends in Resource Disaggregation for Datacenters**
+Jeongyoon Eo and Byung-Gon Chun, KCC, June 2018
 
-**Optimizing Shuffle Performance for Small-scale Data Analysis using Linux zRAM  
-**JangHo Seo and Byung-Gon Chun, KCC, June 2018
+**Optimizing Shuffle Performance for Small-scale Data Analysis using Linux zRAM**
+JangHo Seo and Byung-Gon Chun, KCC, June 2018
 
 **Comparison of Programming Interfaces of Distributed Data Processing Systems**  
 Won Wook Song and Byung-Gon Chun, KCC, June 2018
 
-**A Comparison of Resource Scheduling Strategies for Mutiple Machine Learning Training Jobs in a Shared Cluster  
-**Woo Yeon Lee and Byung-Gon Chun, KCC, June 2018
+**A Comparison of Resource Scheduling Strategies for Mutiple Machine Learning Training Jobs in a Shared Cluster**
+Woo Yeon Lee and Byung-Gon Chun, KCC, June 2018
 
-**Reducing Memory Overhead in JVM-based Data Processing Systems Through Merging Small Data Elements  
-**Youngseok Yang and Byung-Gon Chun, KCC, June 2018
+**Reducing Memory Overhead in JVM-based Data Processing Systems Through Merging Small Data Elements**
+Youngseok Yang and Byung-Gon Chun, KCC, June 2018
 
-**A Comparison of Metadata Handling Methods for a Disaggregated Storage Environment in a Distributed Data Processing System  
-**Sanha Lee and Byung-Gon Chun, KCC, June 2018
+**A Comparison of Metadata Handling Methods for a Disaggregated Storage Environment in a Distributed Data Processing System**
+Sanha Lee and Byung-Gon Chun, KCC, June 2018
 
-**A survey on fault-recovery techniques on distributed stream processing systems  
-**Gyewon Lee and Byung-Gon Chun, KCC, June 2018
+**A survey on fault-recovery techniques on distributed stream processing systems**
+Gyewon Lee and Byung-Gon Chun, KCC, June 2018
 
 **A Comparison of Pull and Push Dataflow Models for Small Analytical Workload Scales**  
 Jooyeon Lee and Byung-Gon Chun, KSC, December 2017
