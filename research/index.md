@@ -74,12 +74,13 @@ permalink: "/research/"
 <tr>
 
 <td class="first">
-  <img src="assets/ai_featured_image-300x286.jpg"></img>
+  <img src="assets/ai_featured_image-300x286.jpg" width="300" height="286">
 </td>
 
 <td>
-
-## [Machine Learning Training and Inference]("http://spl.snu.ac.kr/portfolio-items/artificial-intelligence-platform/")
+<h2>
+  <a href="http://spl.snu.ac.kr/portfolio-items/artificial-intelligence-platform/">Machine Learning Training and Inference</a>
+</h2>
 
 In recent years, many systems for machine learning (e.g., TensorFlow, Caffe2, MXNet) have been proposed to support sophisticated deep learning models and a large amount of data. Yet, such systems lack parallelizing machine learning models easily, handling complex neural networks intuitively, tuning system configurations automatically, etc. We perform research on improving the performance and expressiveness of machine learning frameworks.
 
@@ -100,12 +101,13 @@ In recent years, many systems for machine learning (e.g., TensorFlow, Caffe2, MX
 <tr>
 
 <td class="first">
-  <img src="assets/2-Big-Data-Engines-500X500-300x300.jpg"></img>
+  <img src="assets/2-Big-Data-Engines-500X500-300x300.jpg" width="300" height="300">
 </td>
 
 <td class="second">
-
-## [Flexible and Efficient Data Processing](http://spl.snu.ac.kr/portfolio-items/big-data-processing/)
+<h2>
+  <a href="http://spl.snu.ac.kr/portfolio-items/big-data-processing/">Flexible and Efficient Data Processing</a>
+</h2>
 
 The data processing system domain has evolved for a wide variety of resource and job characteristics. However, it is hard to evolve current data processing systems to adapt to applications with new resources and job characteristics. To address this problem, we are building a flexible and extensible data processing system, and design various instantiation policies for the system.
 
@@ -131,12 +133,13 @@ The data processing system domain has evolved for a wide variety of resource and
 <tr>
 
 <td class="first">
-  <img src="assets/ApacheREEF_logo_no_margin-300x145.png"></img>
+  <img src="assets/ApacheREEF_logo_no_margin-300x145.png" width="300" height="244">
 </td>
 
 <td class="second">
-
-## [Apache REEF](http://spl.snu.ac.kr/portfolio-items/apache-reef/)
+<h2>
+  <a href="http://spl.snu.ac.kr/portfolio-items/apache-reef/">Apache REEF</a>
+</h2>
 
 Apache REEF (Retainable Evaluator Execution Framework) is a library that simplifies development of applications running on cluster resource managers. REEF is an Apache Software Foundation (ASF) Top-Level Project (TLP) and being actively developed by committers from many institutions including Microsoft and Seoul National University.
 
@@ -148,12 +151,13 @@ Apache REEF (Retainable Evaluator Execution Framework) is a library that simplif
 
 
 <td class="first">
-  <img src="assets/3_data_centric_lowr-300x244.jpg"></img>
+  <img src="assets/3_data_centric_lowr-300x244.jpg">
 </td>
 
 <td class="second">
-
-## [MIST: High-Performance IoT Stream Processing](http://spl.snu.ac.kr/portfolio-items/stream-processing/)
+<h2>
+  <a href="http://spl.snu.ac.kr/portfolio-items/stream-processing/">MIST: High-Performance IoT Stream Processing</a>
+</h2>
 
 Stream processing systems are widely used to execute stream queries that extract useful information from data streams at real-time. We focus on a new stream processing system that handles excessive number of stream queries efficiently. Our approach for the efficient execution is to reduce query maintenance overhead, duplicated computations, and imbalance of loads among distributed nodes.
 
@@ -164,11 +168,13 @@ Stream processing systems are widely used to execute stream queries that extract
 <tr>
 
 <td class="first">
-  <img src="assets/4-New-Security-Architecture-1000X470-300x225.jpg"></img>
+  <img src="assets/4-New-Security-Architecture-1000X470-300x225.jpg" width="300" height="244">
 </td>
 
 <td class="second">
-<a href="http://spl.snu.ac.kr/portfolio-items/security-analysis-and-architecture/"><h3>Security Analysis and Architecture</h3></a>
+<h2>
+  <a href="http://spl.snu.ac.kr/portfolio-items/security-analysis-and-architecture/"><h3>Security Analysis and Architecture</h3></a>
+</h2>
 
 We perform research on analyzing mobile applications and malware and coming up with new security architecture for improving mobile security.
 
@@ -179,12 +185,14 @@ We perform research on analyzing mobile applications and malware and coming up w
 <tr>
 
 <td class="first">
-  <img src="assets/mobile_cloud_main-300x243.jpg"></img>
+  <img src="assets/mobile_cloud_main-300x243.jpg" width="300" height="244">
 </td>
 
 <td class="second">
 
-<a href="http://spl.snu.ac.kr/portfolio-items/mobius-unified-messaging-and-data-serving-for-mobile-apps/"><h3>Mobile Cloud Computing</h3></a>
+<h2>
+  <a href="http://spl.snu.ac.kr/portfolio-items/mobius-unified-messaging-and-data-serving-for-mobile-apps/">Mobile Cloud Computing</a>
+</h2>
 
 Mobius & CloneCloud
 
