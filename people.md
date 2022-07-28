@@ -66,9 +66,8 @@ author:
   last_name: ''
 permalink: "/people/"
 ---
-[title size="2"]Professor [/title]
+<h2>Professor</h2>
 
-[one_fourth last="no"]  
 [person picture="http://spl.snu.ac.kr/wp-content/uploads/2014/06/Screen-Shot-2014-06-10-at-6.47.49-PM.png"]  
 [/person][/one_fourth]  
 [three_fourth last="yes"]  
@@ -99,7 +98,7 @@ Experience
 
 [separator top="10"]
 
-[title size="2"]Postdocs [/title]  
+</h2>Postdocs</h2>
 [one_fourth last="no"]  
 [person name="Jay H. Park" picture="https://spl.snu.ac.kr/wp-content/uploads/2013/01/JayHPark.jpg"]  
 Email : [pjh0530z@gmail.com](mailto:pjh0530z@gmail.com)  
@@ -108,7 +107,7 @@ Homepage : [https://sites.google.com/site/jayhpark530/home](https://sites.googl
 
 [separator top="10"]
 
-[title size="2"]Ph.D.  Students [/title]
+</h2>Ph.D.  Students</h2>
 
 [one_fourth last="no"]  
 [person name="Joo Seong Jeong" picture="http://spl.snu.ac.kr/wp-content/uploads/2014/09/jsjung.jpg" title="" ]  
@@ -146,8 +145,7 @@ Email: [phya.ktaebum@gmail.com](phya.ktaebum@gmail.com)
 [(](https://pgp.mit.edu/pks/lookup?op=get&search=0xE01E154A3373A86D)[PGP key](https://pgp.mit.edu/pks/lookup?op=get&search=0xFAD8BD537C5BE6BE)[)](https://pgp.mit.edu/pks/lookup?op=get&search=0xE01E154A3373A86D)[/person]  
 [/one_fourth]
 
-[separator top="10"]  
-[title size="2"]M.S.  Students [/title]
+</h2>M.S.  Students</h2>
 
 [one_fourth last="no"]  
 [person name="Chaehyun Jeong" picture="https://spl.snu.ac.kr/wp-content/uploads/2013/01/chaehyun.jpg" title="" ]  
@@ -203,8 +201,7 @@ Homepage: [https://github.com/gajagajago](https://github.com/gajagajago)
 [/person]  
 [/one_fourth]
 
-[separator top="10"]  
-[title size="2"]Alumni [/title]
+</h2>Alumni</h2>
 
 [one_fourth last="no"]  
 [person name="Sungwoo Cho" picture="http://spl.snu.ac.kr/wp-content/uploads/2017/11/sungwoo.jpg" title="" ]  

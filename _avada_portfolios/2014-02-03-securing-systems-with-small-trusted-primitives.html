@@ -1,0 +1,80 @@
+---
+layout: avada_portfolio
+title: Securing Systems with Small Trusted Primitives
+date: 2014-02-03 06:01:34.000000000 +09:00
+type: avada_portfolio
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '1'
+  _thumbnail_id: '4769'
+  sbg_selected_sidebar_replacement: a:1:{i:0;s:1:"0";}
+  slide_template: default
+  pyre_width: full
+  pyre_portfolio_width_100: 'no'
+  pyre_sidebar: 'no'
+  pyre_sidebar_position: default
+  pyre_project_desc_title: 'yes'
+  pyre_project_details: 'yes'
+  pyre_show_first_featured_image: 'no'
+  pyre_video: ''
+  pyre_video_url: ''
+  pyre_project_url: ''
+  pyre_project_url_text: ''
+  pyre_copy_url: ''
+  pyre_copy_url_text: ''
+  pyre_fimg_width: ''
+  pyre_fimg_height: ''
+  pyre_image_rollover_icons: linkzoom
+  pyre_link_icon_url: ''
+  pyre_link_icon_target: 'no'
+  pyre_related_posts: 'yes'
+  pyre_slider_type: 'no'
+  pyre_slider: '0'
+  pyre_wooslider: '0'
+  pyre_flexslider: '0'
+  pyre_revslider: '0'
+  pyre_elasticslider: '0'
+  pyre_fallback: ''
+  pyre_page_bg_layout: default
+  pyre_page_bg: ''
+  pyre_page_bg_color: ''
+  pyre_page_bg_full: 'no'
+  pyre_page_bg_repeat: repeat
+  pyre_wide_page_bg: ''
+  pyre_wide_page_bg_color: ''
+  pyre_wide_page_bg_full: 'no'
+  pyre_wide_page_bg_repeat: repeat
+  pyre_header_bg: ''
+  pyre_header_bg_color: ''
+  pyre_header_bg_full: 'no'
+  pyre_header_bg_repeat: repeat
+  pyre_page_title: 'yes'
+  pyre_page_title_text: 'yes'
+  pyre_page_title_custom_text: ''
+  pyre_page_title_custom_subheader: ''
+  pyre_page_title_height: ''
+  pyre_page_title_bar_bg: ''
+  pyre_page_title_bar_bg_retina: ''
+  pyre_page_title_bar_bg_full: default
+  pyre_page_title_bar_bg_color: ''
+  pyre_page_title_bg_parallax: default
+  _intelliwidget_widget_page_id: '0'
+  sbg_selected_sidebar: a:1:{i:0;s:1:"0";}
+author:
+  login: bgchun@snu.ac.kr
+  email: bgchun@snu.ac.kr
+  display_name: bgchun@snu.ac.kr
+  first_name: ''
+  last_name: ''
+permalink: "/portfolio-items/securing-systems-with-small-trusted-primitives/"
+---
+<p>Traditionally, secure systems that handle Byzantine faults are built under the assumption that no trusted part exists in a node. For example, widely-known BFT replicated state machines (e.g., PBFT) can provide both safety and liveness with up to one-third faulty replicas, but if this fault assumption is violated there is no guarantee of safety and liveness. This bound has proven optimal when nodes are untrusted; thus, any improvement requires relaxing guarantees or restricting faults. We proposed a new way of building the systems with a new primitive, Attested Append-Only Memory (A2M), that attests only one (sequence number, value) binding for a particular sequence number. With the primitive we restructured well-known protocols, PBFT, SUNDR, and Q/U, and showed new protocols enabled by A2M tolerate more faults than existing ones. We further applied A2M to build a long-term service that preserves key-value bindings correctly despite short-term correlated faults.</p>
+<p><strong>Publications</strong></p>
+<p>P. Maniatis and B.-G. Chun. <strong>"<a title="Small Trusted Primitives for Dependable Systems " href="http://berkeley.intel-research.net/maniatis/publications/2011OSR.pdf" target="_blank">Small trusted primitives for dependable systems,</a>" <i>Operating Systems Review</i>,</strong> 2011.<br />
+B.-G. Chun, P. Maniatis, S. Shenker, and J. Kubiatowicz. <strong>"<a href="https://www.usenix.org/legacy/events/fast09/tech/full_papers/chun/chun_html/" target="_blank"><strong>Tiered fault tolerance for long-term integrity</strong>,</a>" In <i>USENIX FAST</i>,</strong> 2009.<br />
+B.-G. Chun, P. Maniatis, S. Shenker, and J. Kubiatowicz. <strong>"<a href="http://iris.csail.mit.edu/irisbib/papers/aaom:sosp21/paper.pdf" target="_blank">Attested append-only memory: Making adversaries stick to their word,</a>" In <i>ACM SOSP</i>,</strong> 2007.</p>
