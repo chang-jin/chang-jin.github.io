@@ -1,0 +1,85 @@
+---
+layout: avada_portfolio
+title: 'Networking: RouterBricks, MegaPipe, Data-Centric Networking'
+date: 2015-03-24 09:12:49.000000000 +09:00
+type: avada_portfolio
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '1'
+  _thumbnail_id: '5106'
+  sbg_selected_sidebar_replacement: a:1:{i:0;s:1:"0";}
+  slide_template: default
+  pyre_width: full
+  pyre_portfolio_width_100: 'no'
+  pyre_sidebar: 'no'
+  pyre_sidebar_position: default
+  pyre_project_desc_title: 'yes'
+  pyre_project_details: 'yes'
+  pyre_show_first_featured_image: 'no'
+  pyre_video: ''
+  pyre_video_url: ''
+  pyre_project_url: ''
+  pyre_project_url_text: ''
+  pyre_copy_url: ''
+  pyre_copy_url_text: ''
+  pyre_fimg_width: ''
+  pyre_fimg_height: ''
+  pyre_image_rollover_icons: linkzoom
+  pyre_link_icon_url: ''
+  pyre_link_icon_target: 'no'
+  pyre_related_posts: 'yes'
+  pyre_slider_type: 'no'
+  pyre_slider: '0'
+  pyre_wooslider: '0'
+  pyre_flexslider: '0'
+  pyre_revslider: '0'
+  pyre_elasticslider: '0'
+  pyre_fallback: ''
+  pyre_page_bg_layout: default
+  pyre_page_bg: ''
+  pyre_page_bg_color: ''
+  pyre_page_bg_full: 'no'
+  pyre_page_bg_repeat: repeat
+  pyre_wide_page_bg: ''
+  pyre_wide_page_bg_color: ''
+  pyre_wide_page_bg_full: 'no'
+  pyre_wide_page_bg_repeat: repeat
+  pyre_header_bg: ''
+  pyre_header_bg_color: ''
+  pyre_header_bg_full: 'no'
+  pyre_header_bg_repeat: repeat
+  pyre_page_title: 'yes'
+  pyre_page_title_text: 'yes'
+  pyre_page_title_custom_text: ''
+  pyre_page_title_custom_subheader: ''
+  pyre_page_title_height: ''
+  pyre_page_title_bar_bg: ''
+  pyre_page_title_bar_bg_retina: ''
+  pyre_page_title_bar_bg_full: default
+  pyre_page_title_bar_bg_color: ''
+  pyre_page_title_bg_parallax: default
+  sbg_selected_sidebar: a:1:{i:0;s:1:"0";}
+author:
+  login: sychoi
+  email: alicia.sychoi@gmail.com
+  display_name: sychoi
+  first_name: ''
+  last_name: ''
+permalink: "/portfolio-items/networking-routerbricks-megapipe-data-centric-networking/"
+---
+<p><strong>RouterBricks : Exploiting Parallelism to Build General-Purpose Scalable Software Routers</strong><br />
+Recent advances in server technology such as a high-speed backbone between processing cores and memory enable high-speed parallel processing. We revisited the problem of scaling software routers and proposed a new software router architecture, RouteBricks, that parallelizes router functionality both across multiple servers and across multiple cores within a single server to exploit parallelism at every opportunity. RouteBricks carefully assigns packets to cores to avoid contention and copying. It routes packets across servers with a topology to maximize throughput while minimizing packet reorderings. A 35Gbps parallel router prototype has been demonstrated with four commodity Intel Nehalem servers. The software router can be linearly scaled through the use of additional servers. The prototype router is fully programmable using the familiar Linux environment and is built entirely from off-the-shelf, general-purpose server hardware. This work received a best paper award at SOSP, a prestigious operating systems conference, and the source code is publicly available and has been actively used in the systems and networking community.</p>
+<p><strong>MegaPipe: Scalable OS Network I/O</strong><br />
+We proposed MegaPipe, a new API for efficient, scalable network I/O for message-oriented workloads. The design of MegaPipe centers around the abstraction of a channel, a per-core, bidirectional pipe between the kernel and user space, used to exchange both I/O requests and event notifications. On top of the channel abstraction, we introduce three key concepts of MegaPipe: partitioning, lightweight socket (lwsocket), and batching. By embracing a clean-slate design approach, MegaPipe is able to exploit new opportunities for improved performance and ease of programmability. In macrobenchmarks on an 8-core server, MegaPipe improves the performance of a modified version of memcached between 15% and 320%. For a workload based on real-world HTTP traces, MegaPipe boosts the throughput of nginx by 75%.</p>
+<p><strong>Data-Centric Networking</strong><br />
+The Internet usage has shifted from host-centric to data-centric applications. The Data-Oriented Network Architecture (DONA) is a “clean-slate” design for naming and name resolution of the Internet for data-centric applications. The heart of DONA is a self-certifying name-based anycast primitive, sitting on top of the IP layer, which provides name persistence, authenticity, and reliability. With DONA, applications receive anycast support directly from the Internet, thus eliminating the necessity of specialized content distribution solutions like Akamai. DONA is pioneering work that introduced pub-sub style communication to the core Internet infrastructure for content-centric networking.</p>
+<p><strong>Publication</strong><br />
+<strong>[1] RouterBricks: </strong>M. Dobrescu, N. Egi, K. Argyraki, B.-G. Chun, K. Fall, G. Iannaccone, A. Knies, M. Manesh, and S. Ratnasamy.<strong>“<a title="RouteBricks: Exploiting Parallelism To Scale Software Routers" href="http://www.sigops.org/sosp/sosp09/papers/dobrescu-sosp09.pdf" target="_blank">RouteBricks: Exploiting parallelism to scale software routers</a>,” In <i>ACM SOSP</i>,</strong> 2009.<br />
+<strong>[2] MegaPipe:</strong> S. Han, S. Marshall, B.-G. Chun, and S. Ratnasamy. <strong>“<a title="MegaPipe: A New Programming Interface for Scalable Network I/O" href="http://www.eecs.berkeley.edu/~sylvia/papers/osdi2012_megapipe.pdf" target="_blank">Megapipe: A new programming interface for scalable network i/o</a>,” In <i>USENIX OSDI</i>,</strong> 2012.<br />
+<strong>[3] Data-Centric Networking: </strong>T. Koponen, M. Chawla, B.-G. Chun, A. Ermolinskiy, K. H. Kim, S. Shenker, and I. Stoica. <strong>“<a title="A Data-Oriented (and Beyond) Network Architecture" href="http://www.cs.iastate.edu/~yingcai/cs587x/reading08/PatrickCarlson.pdf" target="_blank">A data- oriented (and beyond) network architecture,</a>” In ACM SIGCOMM,</strong> 2007.</p>
+<p>&nbsp;</p>

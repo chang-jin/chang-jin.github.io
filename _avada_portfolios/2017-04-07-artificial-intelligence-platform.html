@@ -1,0 +1,130 @@
+---
+layout: avada_portfolio
+title: Artificial Intelligence Platform and Algorithm
+date: 2017-04-07 09:53:20.000000000 +09:00
+type: avada_portfolio
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '1'
+  sbg_selected_sidebar_replacement: a:1:{i:0;s:1:"0";}
+  slide_template: default
+  pyre_width: full
+  pyre_portfolio_width_100: 'no'
+  pyre_sidebar: 'no'
+  pyre_sidebar_position: default
+  pyre_project_desc_title: 'no'
+  pyre_project_details: 'no'
+  pyre_show_first_featured_image: 'no'
+  pyre_video: ''
+  pyre_video_url: ''
+  pyre_project_url: ''
+  pyre_project_url_text: ''
+  pyre_copy_url: ''
+  pyre_copy_url_text: ''
+  pyre_fimg_width: ''
+  pyre_fimg_height: ''
+  pyre_image_rollover_icons: linkzoom
+  pyre_link_icon_url: ''
+  pyre_link_icon_target: 'no'
+  pyre_related_posts: 'no'
+  pyre_slider_type: 'no'
+  pyre_slider: '0'
+  pyre_wooslider: '0'
+  pyre_flexslider: '0'
+  pyre_revslider: '0'
+  pyre_elasticslider: '0'
+  pyre_fallback: ''
+  pyre_page_bg_layout: default
+  pyre_page_bg: ''
+  pyre_page_bg_color: ''
+  pyre_page_bg_full: 'no'
+  pyre_page_bg_repeat: repeat
+  pyre_wide_page_bg: ''
+  pyre_wide_page_bg_color: ''
+  pyre_wide_page_bg_full: 'no'
+  pyre_wide_page_bg_repeat: repeat
+  pyre_header_bg: ''
+  pyre_header_bg_color: ''
+  pyre_header_bg_full: 'no'
+  pyre_header_bg_repeat: repeat
+  pyre_page_title: 'yes'
+  pyre_page_title_text: 'yes'
+  pyre_page_title_custom_text: ''
+  pyre_page_title_custom_subheader: ''
+  pyre_page_title_height: ''
+  pyre_page_title_bar_bg: ''
+  pyre_page_title_bar_bg_retina: ''
+  pyre_page_title_bar_bg_full: default
+  pyre_page_title_bar_bg_color: ''
+  pyre_page_title_bg_parallax: default
+  sbg_selected_sidebar: a:1:{i:0;s:1:"0";}
+  _wp_old_slug: machine-learning-deep-learning
+author:
+  login: sychoi
+  email: alicia.sychoi@gmail.com
+  display_name: sychoi
+  first_name: ''
+  last_name: ''
+permalink: "/portfolio-items/artificial-intelligence-platform/"
+excerpt: Many systems for machine learning have been proposed since the rapid growth
+  of dataset sizes and publications of sophisticated algorithms. Yet, systems fail
+  to handle dynamism, whether it be the dynamic nature of complex algorithms or some
+  aspect within the system that cannot be managed with static configurations. We perform
+  research on improving such shortcomings, widening the range of applications machine
+  learning systems can support and automating system-level optimizations without any
+  fine-tuning from machine learning experts.
+---
+<h3><span style="color: #3366ff;"><strong>Nimble: Lightweight and Efficient GPU Task Scheduling for Deep Learning</strong></span><br />
+<span style="font-weight: 400;">Deep learning (DL) frameworks take advantage of GPUs to improve performance of DL inference and training. We observe that as DL operations take less time on a GPU, the framework overhead affects the overall running time more significantly. We propose Nimble, a system that automatically avoids such framework overheads and parallelizes GPU kernels using multiple streams for static DL models. Nimble introduces ahead-of-time (AoT) scheduling with automatic multi-stream assignment. Nimble automates applying these techniques by capturing the GPU kernel call trace and running only GPU kernel calls for execution. Our evaluations on various deep neural networks show that Nimble improves the speed of inference and training by up to 22.34× and 3.61× compared to PyTorch, respectively. Furthermore, Nimble outperforms TensorRT by up to 2.8x for inference. <em>We are working to enhance Nimble to further optimize DNN execution on GPUs.</em><br />
+</span></h3>
+<h3><span style="color: #3366ff;"><strong>Multi-DNN Scheduling</strong></span><br />
+<span style="font-weight: 400;">Standardized DNN models that have been proved to perform well on machine learning tasks are widely used and often adopted as-is to solve downstream tasks, forming the transfer learning paradigm. However, when serving multiple instances of such DNN models from a cluster of GPU servers, existing techniques to improve GPU utilization such as batching are inapplicable because models often do not share weights due to fine-tuning. We propose NETFUSE, a technique of merging multiple DNN models that share the same architecture but have different weights and different inputs. NETFUSE is made possible by replacing operations with more general counterparts that allow a set of weights to be associated with only a certain set of inputs. Experiments on ResNet-50, ResNeXt-50, BERT, and XLNet show that NETFUSE can speed up DNN inference time up to 3.6× on a NVIDIA V100 GPU, and up to 3.0× on a TITAN Xp GPU when merging 32 model instances, while only using up a small additional amount of GPU memory. <em>We are currently working on building a new multi-DNN scheduling system for large-scale GPU clusters.</em><br />
+</span></h3>
+<h3><span style="color: #3366ff;"><strong>Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs: JANUS, TERRA</strong></span><br />
+<span style="font-weight: 400;">The rapid evolution of deep neural networks is demanding deep learning (DL) frameworks not only to satisfy the traditional requirement of quickly executing large computations, but also to support straightforward programming models for quickly implementing and experimenting with complex network structures. However, existing frameworks fail to excel in both departments simultaneously, leading to diverged efforts for optimizing performance and improving usability. We present JANUS, a system that combines the advantages from both sides by transparently converting an imperative DL program written in Python, the de-facto scripting language for DL, into an efficiently executable symbolic dataflow graph. JANUS can convert various dynamic features of Python, including dynamic control flow, dynamic types, and impure functions, into elements of a symbolic dataflow graph. Our experiments demonstrate that JANUS can achieve fast DL training by exploiting the techniques imposed by symbolic graph-based DL frameworks, while maintaining the simple and flexible programmability of imperative DL frameworks at the same time. <em>We are currently working on a next generation of Janus that improves the coverage of Python DL programs that we can execute in the symbolic mode.</em><br />
+</span></h3>
+<h3><span style="color: #3366ff;"><strong>Automatic Distributed Training of Machine Learning Models: Parallax, Tachyon</strong></span><br />
+<span style="font-weight: 400;">The employment of high-performance servers and GPU accelerators for training neural network models have greatly accelerated recent advances in machine learning (ML). ML frameworks, e.g. TensorFlow, MXNet, and Caffe2, have emerged to assist ML researchers to train their models in a distributed fashion. However, efficiently utilizing environments of multiple machines and GPUs is still not a straightforward task for researchers because they must apply nontrivial modifications to their single-device programs, including parallel execution mechanisms and device coordination. We introduce Parallax, a tool for automatic parallelization of neural network training in distributed environments. Parallax employs data parallelism for distributed training, utilizing either parameter server architecture or MPI-style collective communication primitives for synchronization. Parallax leverages various optimizations to minimize the communication overhead caused by scaling out, such as intermediate data aggregation to reduce inter-machine communication time and manipulating operation schedule to overlap communication with computation. <em>We are currently working on a new distributed training framework that can train large-scale models like GPT-3 as efficiently as possible even in elastic resource environments.</em></span></h3>
+<h3><span style="color: #3366ff;"><strong>AutoML System and Algorithm: Hippo</strong></span><br />
+<span style="font-weight: 400;">AutoML is a field that automates the construction of deep learning models (e.g., hyperparameter optimization or neural architecture search (NAS).) This workload consumes a significant portion of GPU cluster resources. <em>In this work, we build a new system for efficiently supporting AutoML workloads (e.g., hyperparameter optimization and neural architecture search). In addition, we explore to come up with new NAS algorithms to take advantage of new hardware or system support.</em><br />
+Hyper-parameter optimization is crucial for pushing the accuracy of a deep learning model to its limits. A hyper- parameter optimization job, referred to as a study, involves numerous trials of training a model using different training knobs, and therefore is very computation-heavy, typically taking hours and days to finish. We propose Hippo, a hyper-parameter optimization system that removes redundancy in the training process to reduce the overall amount of computation significantly. Instead of executing each trial independently as in existing hyper-parameter optimization systems, Hippo breaks down the hyper-parameter sequences into stages and merges common stages to form a tree of stages, then executes a stage once per tree on a distributed GPU server environment. Evaluations show that the stage-based execution strategy outperforms trial-based methods such as Ray Tune for several models and hyper-parameter optimization algorithms, reducing GPU-hours and end-to-end training time significantly.<br />
+</span></h3>
+<h3><span style="color: #3366ff;"><strong>Mobile Deep Learning Platform</strong></span><br />
+<span style="font-weight: 400;">Current mobile deep learning platforms such as TensorFlow Lite and MNN are geared towards independent execution of a single DNN, not considering the unique workloads characteristics of extended-reality (XR) applications: real-time, concurrent execution of multiple DNNs. <em>In this project, we build a general deep learning platform for mobile and wearable devices that perform multi-DNN execution on multiple accelerators to serve XR applications.</em> Instead of utilizing only a single accelerator, our platform utilizes all available accelerators (GPU, DSP, NPU) on the device and devises an optimal schedule to run multiple DNNs while satisfying real-time latency requirements. Our platform also takes cloud servers into account, offloading heavy computations to the cloud in case the on-device accelerators are insufficient to serve a bursty load. This is joint work with Human-centered Computer Systems Lab.<br />
+</span></h3>
+<h3><span style="color: #3366ff;"><strong>Crane: GPU Resource Manager for Diverse DL Training Workloads</strong></span><br />
+<span style="font-weight: 400;">Sharing a common GPU resource pool is challenging, as deep learning training workloads have varying requirements. Workloads like distributed training or AutoML require hundreds to thousands of GPUs. Some models require a specific GPU version or network topology to train efficiently. Therefore, a GPU cluster should support dynamically sharing resources among different workloads and tenants. To support these various workloads, Crane handles resources in units of cargos, a set of containers that may be placed across machines, and mini-cluster, a set of cargos. Each application is given a mini-cluster, and resource transaction is done in units of cargos. Crane can be deployed on Kubernetes or plain Docker, and our team will open-source Crane by the end of this year. For further information, see our documentation at <span style="color: #008000;"><a style="color: #008000;" href="https://snuspl.github.io/crane/">https://snuspl.github.io/crane/</a></span>.<br />
+</span></h3>
+<h3><span style="color: #3366ff;"><strong>New Deep Learning Programming Abstraction: SubGraph and InvokeOp</strong></span><br />
+<span style="font-weight: 400;">A group of recent deep learning applications involves deep neural networks with dynamically changing architectures. However, popular frameworks, including TensorFlow, Caffe2, MXNet, and CNTK, are not designed to support such advanced structures natively, incurring substantial overhead to change the architecture of a given network on the fly. An important network architecture type is recursive neural networks. They have widely been used by researchers to handle applications with recursively or hierarchically structured data. However, embedded control flow deep learning frameworks such as TensorFlow, Theano, Caffe2, and MXNet fail to efficiently represent and execute such neural networks, due to lack of support for recursion. In this paper, we add recursion to the programming model of existing frameworks by complementing their design with recursive execution of data ow graphs as well as additional APIs for recursive definitions. Unlike iterative implementations, which can only understand the topological index of each node in recursive data structures, our recursive implementation is able to exploit the recursive relationships between nodes for efficient execution based on parallel computation. We present an implementation on TensorFlow and evaluation results with various recursive neural network models, showing that our recursive implementation not only conveys the recursive nature of recursive neural networks better than other implementations, but also uses given resources more effectively to reduce training and inference time.<br />
+</span></h3>
+<h3><span style="color: #3366ff;"><strong>PRETZEL: White-box Machine Learning Serving</strong></span><br />
+<span style="font-weight: 400;">Machine Learning models are often composed of pipelines of transformations. While this design allows to efficiently execute single model components at training- time, prediction serving has different requirements such as low latency, high throughput and graceful performance degradation under heavy load. Current prediction serving systems consider models as black boxes, whereby prediction-time-specific optimizations are ignored in favor of ease of deployment. In this paper, we present PRETZEL, a prediction serving system introducing a novel white box architecture enabling both end-to-end and multi-model optimizations. Using production-like model pipelines, our experiments show that PRETZEL is able to introduce performance improvements over different dimensions; compared to state-of-the-art approaches PRETZEL is on average able to reduce 99th percentile latency by 5.5× while reducing memory footprint by 25×, and increasing throughput by 4.7×.<br />
+</span></h3>
+<h3><strong>Publication</strong></h3>
+<ul>
+<li>Woosuk Kwon*, Gyeong-In Yu*, Eunji Jeong, Byung-Gon Chun.  Nimble: Lightweight Execution of Deep Neural Networks on a GPU. To appear at NeurIPS 2020 (Spotlight).</li>
+<li><span style="font-weight: 400;">Ahnjae Shin, Dong-Jin Shin, Sungwoo Cho, Do Yoon Kim, Eunji Jeong, Gyeong-In Yu, Byung-Gon Chun. Stage-based Hyper-parameter Optimization for Deep Learning. Systems for ML Workshop at NeurIPS 2019, December 2019.<br />
+</span></li>
+<li><span style="font-weight: 400;">Eunji Jeong, Sungwoo Cho, Gyeong-In Yu, Joo Seong Jeong, Dong-Jin Shin, Taebum Kim, Byung-Gon Chun. Speculative Symbolic Graph Execution of Imperative Deep Learning Programs. SIGOPS Operating Systems Review, July 2019.<br />
+</span></li>
+<li><span style="font-weight: 400;">Woo-Yeon Lee, Yunseong Lee, Joo Seong Jeong, Gyeong-In Yu, Joo Yeon Kim, Ho Jin Park, Beomyeol Jeon, Wonwook Song, Gunhee Kim, Markus Weimer, Brian Cho, Byung-Gon Chun. Automating System Configuration of Distributed Machine Learning. ICDCS 2019, July 2019.<br />
+</span></li>
+<li><span style="font-weight: 400;">Eunji Jeong, Sungwoo Cho, Gyeong-In Yu, Joo Seong Jeong, Dongjin Shin, Byung-Gon Chun. Demonstration of JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs. SysML 2019, April 2019.</span></li>
+<li><span style="font-weight: 400;">Soojeong Kim, Gyeong-In Yu, Hojin Park, Sungwoo Cho, Eunji Jeong, Hyeonmin Ha, Sanha Lee, Joo Seong Jeong, Byung-Gon Chun. Parallax: Sparsity-aware Data Parallel Training of Deep Neural Networks. EuroSys 2019, March 2019.</span></li>
+<li><span style="font-weight: 400;">Eunji Jeong, Sungwoo Cho, Gyeong-In Yu, Joo Seong Jeong, Dongjin Shin, Byung-Gon Chun. JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs. 16th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2019), February 2019.</span></li>
+<li><span style="font-weight: 400;">Yunseong Lee, Alberto Scolari, Byung-Gon Chun, Markus Weimer, Matteo Interlandi. From the Edge to the Cloud: Model Serving in ML.NET. IEEE Data Engineering Bulletin, December 2018.</span></li>
+<li><span style="font-weight: 400;">Gyeong-In Yu, Saeed Amizadeh, Byung-Gon Chun, Markus Weimer, Matteo Interlandi. Making Classical Machine Learning Pipelines Differentiable: A Neural Translation Approach. Systems for ML Workshop at NIPS 2018, December 2018.</span></li>
+<li><span style="font-weight: 400;">Yunseong Lee, Alberto Scolari, Byung-Gon Chun, Marco Domenico Santambrogio, Markus Weimer, Matteo Interlandi. PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems. 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018), October 2018.</span></li>
+<li><span style="font-weight: 400;">Eunji Jeong, Joo Seong Jeong, Soojeong Kim, Gyeong-In Yu, Byung-Gon Chun. Improving the Expressiveness of Deep Learning Frameworks with Recursion, EuroSys 2018, April 2018.</span></li>
+<li><span style="font-weight: 400;">Yunseong Lee, Alberto Scolari, Matteo Interlandi, Markus Weimer, Byung-Gon Chun. Towards High-Performance Prediction Serving Systems. SysML Conference, February 2018.</span></li>
+<li><span style="font-weight: 400;">Yunseong Lee, Alberto Scolari, Matteo Interlandi, Markus Weimer, Byung-Gon Chun. Towards High-Performance Prediction Serving Systems. ML Systems Workshop at NIPS 2017, December 2017.</span></li>
+<li><span style="font-weight: 400;">Soojeong Kim, Eunji Jeong, Joo Seong Jeong, Gyeongin Yu, Hojin Park, Byung-Gon Chun. Auto-Parallelizing Deep Learning for Multi-machine, Multi-GPU Environments. Workshop on AI Systems at Symposium on Operating Systems Principles (SOSP), October 2017.</span></li>
+<li><span style="font-weight: 400;">Byung-Gon Chun, Brian Cho, Beomyeol Jeon, Joo Seong Jeong, Gunhee Kim, Joo Yeon Kim, Woo-Yeon Lee, Yun Seong Lee, Markus Weimer, Youngseok Yang, Gyeong-In Yu. Dolphin: Runtime Optimization for Distributed Machine Learning, ICML ML Systems workshop, June 2016.</span></li>
+<li><span style="font-weight: 400;">Joo Seong Jeong, Woo-Yeon Lee, Yunseong Lee, Youngseok Yang, Brian Cho, Byung-Gon Chun. Elastic Memory: Bring Elasticity Back To In-Memory Big Data Analytics. USENIX HotOS Workshop, May 2015.</span></li>
+</ul>
