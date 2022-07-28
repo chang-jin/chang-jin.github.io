@@ -64,6 +64,7 @@ author:
 permalink: "/research/"
 ---
 <h2>Current Projects</h2>
+![AI Featured Image](assets/ai_featured_image-300x286.jpg)
 
 <h3>Artificial Intelligence Platform and Algorithm</h3>
 
@@ -73,7 +74,7 @@ permalink: "/research/"
 
 <tr>
 
-<td class="first">![AI Featured Image]("./assets/ai_featured_image-300x286.jpg")</td>
+<td class="first">![AI Featured Image](assets/ai_featured_image-300x286.jpg)</td>
 
 <td>
 
@@ -128,7 +129,7 @@ The data processing system domain has evolved for a wide variety of resource and
 
 <tr>
 
-<td class="first">![ApacheREEF]("./assets/ApacheREEF_logo_no_margin-300x145.png")</td>
+<td class="first">![ApacheREEF](assets/ApacheREEF_logo_no_margin-300x145.png)</td>
 
 <td class="second">
 
