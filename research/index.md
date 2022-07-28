@@ -168,8 +168,7 @@ Stream processing systems are widely used to execute stream queries that extract
 </td>
 
 <td class="second">
-
-## [Security Analysis and Architecture](http://spl.snu.ac.kr/portfolio-items/security-analysis-and-architecture/)
+<a href="http://spl.snu.ac.kr/portfolio-items/security-analysis-and-architecture/"><h3>Security Analysis and Architecture</h3></a>
 
 We perform research on analyzing mobile applications and malware and coming up with new security architecture for improving mobile security.
 
@@ -185,7 +184,7 @@ We perform research on analyzing mobile applications and malware and coming up w
 
 <td class="second">
 
-<a href="http://spl.snu.ac.kr/portfolio-items/mobius-unified-messaging-and-data-serving-for-mobile-apps/">Mobile Cloud Computing</a>
+<a href="http://spl.snu.ac.kr/portfolio-items/mobius-unified-messaging-and-data-serving-for-mobile-apps/"><h3>Mobile Cloud Computing</h3></a>
 
 Mobius & CloneCloud
 
