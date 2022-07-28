@@ -97,7 +97,9 @@ In recent years, many systems for machine learning (e.g., TensorFlow, Caffe2, MX
 
 <tr>
 
-<td class="first">![Big Data Engines](./assets/2-Big-Data-Engines-500X500-300x300.jpg "Big Data Engines"))</td>
+<td class="first">
+  ![Big Data Engines](./assets/2-Big-Data-Engines-500X500-300x300.jpg "Big Data Engines"))
+</td>
 
 <td class="second">
 

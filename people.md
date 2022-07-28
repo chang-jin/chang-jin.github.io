@@ -68,8 +68,7 @@ permalink: "/people/"
 ---
 <h2>Professor</h2>
 
-[person picture="http://spl.snu.ac.kr/wp-content/uploads/2014/06/Screen-Shot-2014-06-10-at-6.47.49-PM.png"]  
-[/person][/one_fourth]  
+![person picture](http://spl.snu.ac.kr/wp-content/uploads/2014/06/Screen-Shot-2014-06-10-at-6.47.49-PM.png)
 [three_fourth last="yes"]  
 [person name="Byung-Gon Chun (전병곤)"]  
 Associate Professor, Computer Science and Engineering Department, Seoul National University  
