@@ -16,16 +16,14 @@ plugins:
 nav:
   - name:           "home"
     href:           "/"
-  - name:           "about"
-    href:           "/about"
-  - name:           "publications"
-    href:           "/publication"
   - name:           "people"
     href:           "/people"
-  - name:           "blog"
-    href:           "/blog"
-  - name:           "resources"
-    href:           "/resources"
+  - name:           "updates"
+    href:           "/updates"
+  - name:           "updates"
+    href:           "/updates"
+  - name:           "publications"
+    href:           "/publication"
 
 # Sass
 sass:
