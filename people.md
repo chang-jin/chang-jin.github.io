@@ -81,7 +81,7 @@ permalink: /people/
     </div>
 </div>
 </div>
-<hr>
+<hr><br>
 {% endif %}
 {% endfor %}
 {% elsif role != 'alumni' %}
@@ -95,7 +95,7 @@ permalink: /people/
           {% else %}
             <img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg">
           {% endif %}
-          {{ profile.name }}
+          {{ profile.name }}<br>
           Email :&nbsp;<a href="mailto:{{ profile.email }}">{{ profile.email }}</a>&nbsp;<a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
           Homepage :&nbsp;<a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a>
         </p>
@@ -103,7 +103,7 @@ permalink: /people/
     {% endif %}
   {% endfor %}
 </div>
-<hr>
+<hr><br>
 {% endif %}
 
 
