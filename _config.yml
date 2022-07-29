@@ -20,10 +20,10 @@ nav:
     href:           "/people"
   - name:           "updates"
     href:           "/updates"
-  - name:           "updates"
-    href:           "/updates"
+  - name:           "research"
+    href:           "/research"
   - name:           "publications"
-    href:           "/publication"
+    href:           "/publications"
 
 # Sass
 sass:
