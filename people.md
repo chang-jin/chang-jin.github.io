@@ -29,7 +29,7 @@ permalink: /people/
 
 {% if role == 'professor' %}
 <h3>Professor</h3>
-{% if role == 'postdoc' %}
+ {% elsif role == 'postdoc' %}
 <h3>Postdocs</h3>
  {% elsif role == 'phd' %}
 <h3>Ph.D.  Students</h3>
