@@ -80,7 +80,8 @@ permalink: /people/
         </div>
     </div>
 </div>
-<hr><br>
+<hr>
+<div id="clear" style="clear:both;"></div>
 {% endif %}
 {% endfor %}
 {% elsif role != 'alumni' %}
@@ -102,7 +103,8 @@ permalink: /people/
     {% endif %}
   {% endfor %}
 </div>
-<hr><br>
+<hr>
+<div id="clear" style="clear:both;"></div>
 {% endif %}
 
 
