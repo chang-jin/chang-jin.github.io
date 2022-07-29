@@ -1,9 +1,6 @@
 ---
 title: People
-layout: page
-title: People
 date: 2013-01-19 20:28:10.000000000 +09:00
-type: page
 author:
   login: bgchun@snu.ac.kr
   email: bgchun@snu.ac.kr
