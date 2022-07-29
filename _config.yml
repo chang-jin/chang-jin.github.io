@@ -15,7 +15,7 @@ plugins:
 # Navigation
 nav:
   - name:           "home"
-    href:           "/"
+    href:           "/home"
   - name:           "people"
     href:           "/people"
   - name:           "updates"
