@@ -73,8 +73,8 @@ permalink: "/research/"
 
 <tr>
 
-<td class="first">
-  <img src="assets/ai_featured_image-300x286.jpg">
+<td class="first" style="">
+  <img src="assets/ai_featured_image-300x286.jpg" width="100%" height="100%">
 </td>
 
 <td>
@@ -192,3 +192,11 @@ Mobius & CloneCloud
 </tbody>
 
 </table>
+
+
+<style>
+.first {
+  width:200px; 
+  height:200px;
+}
+</style>
