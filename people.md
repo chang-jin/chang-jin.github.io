@@ -82,7 +82,6 @@ permalink: /people/
         </div>
     </div>
 </div>
-
 {% elsif role != 'alumni' %}
 <div class="content list people">
   {% for profile in people_sorted %}
