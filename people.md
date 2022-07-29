@@ -46,7 +46,7 @@ permalink: /people/
 {% for profile in people_sorted %}
 {% if profile.position contains role %}
 <div class="one_fourth">
-    <div class="person"><img class="person-img" src="{{ profile.picture }}" alt=""></div>
+    <div class="person"><img class="profile-thumbnail" src="{{ profile.picture }}" alt=""></div>
 </div>
 <div class="three_fourth last">
     <div class="person">
@@ -108,3 +108,15 @@ permalink: /people/
 
 
 {% endfor %}
+
+<style>
+.one_fourth {
+    width: 22%;
+}
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth {
+    margin-right: 4%;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+</style>
