@@ -44,6 +44,7 @@ permalink: /people/
 
 {% if role == 'professor' %}
 {% for profile in people_sorted %}
+{% if profile.position contains role %}
 <div class="one_fourth">
     <div class="person"><img class="person-img" src="{{ profile.picture }}" alt=""></div>
 </div>
@@ -83,6 +84,7 @@ permalink: /people/
         </div>
     </div>
 </div>
+{% endif %}
 {% endfor %}
 {% elsif role != 'alumni' %}
 <div class="content list people">
