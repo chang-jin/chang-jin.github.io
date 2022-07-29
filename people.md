@@ -109,19 +109,3 @@ permalink: /people/
 
 
 {% endfor %}
-
-<style>
-.one_fourth {
-    width: 22%;
-}
-.one_half, .one_third, .two_third, .three_fourth, .one_fourth {
-    margin-right: 4%;
-    float: left;
-    margin-bottom: 20px;
-    position: relative;
-}
-#main .last {
-    margin-right: 0 !important;
-    clear: right;
-}
-</style>
