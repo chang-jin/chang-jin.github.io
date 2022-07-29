@@ -27,7 +27,6 @@ nav:
 
 # Sass
 sass:
-  sass_dir:           _sass
   style:              compressed
 
 # Scopes
