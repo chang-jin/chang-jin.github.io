@@ -74,7 +74,7 @@ author:
   last_name: ''
 permalink: "/"
 ---
-![SPL Landing Logo](./assets/spl_landing_logo-e1535010526726.png)
+![SPL Landing Logo](/assets/spl_landing_logo-e1535010526726.png)
 
 <div id="reading-box-container-1" class="reading-box-container clearfix">
 
