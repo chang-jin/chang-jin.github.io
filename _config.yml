@@ -28,8 +28,9 @@ nav:
     href:           "/resources"
 
 # Sass
-# sass:
-  # style:            :compressed
+sass:
+  sass_dir:           _sass
+  style:              compressed
 
 # Scopes
 defaults:
