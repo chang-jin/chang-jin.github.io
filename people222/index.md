@@ -66,6 +66,7 @@ author:
   last_name: ''
 permalink: "/people/"
 ---
+
 <h2>Professor</h2>
 
 ![person picture](http://spl.snu.ac.kr/wp-content/uploads/2014/06/Screen-Shot-2014-06-10-at-6.47.49-PM.png)
@@ -97,7 +98,8 @@ Experience
 
 [separator top="10"]
 
-</h2>Postdocs</h2>
+## Postdocs
+
 [one_fourth last="no"]  
 [person name="Jay H. Park" picture="https://spl.snu.ac.kr/wp-content/uploads/2013/01/JayHPark.jpg"]  
 Email : [pjh0530z@gmail.com](mailto:pjh0530z@gmail.com)  
@@ -106,7 +108,8 @@ Homepage : [https://sites.google.com/site/jayhpark530/home](https://sites.googl
 
 [separator top="10"]
 
-</h2>Ph.D.  Students</h2>
+
+
 
 [one_fourth last="no"]  
 [person name="Joo Seong Jeong" picture="http://spl.snu.ac.kr/wp-content/uploads/2014/09/jsjung.jpg" title="" ]  
