@@ -43,47 +43,47 @@ permalink: /people/
 </div>
 
 {% if role == 'professor' %}
-    {% for profile in people_sorted %}
-    <div class="one_fourth">
-        <div class="person"><img class="person-img" src="{{ profile.picture }}" alt=""></div>
-    </div>
-    <div class="three_fourth last">
-        <div class="person">
-            <div class="person-desc">
-                <div class="person-author person-author-dark clearfix">
-                    <div class="person-author-wrapper">
-                        <span class="person-name">{{ profile.name }}</span>
-                        <span class="person-title"></span>
-                    </div>
-                    <div class="clear"></div>
+{% for profile in people_sorted %}
+<div class="one_fourth">
+    <div class="person"><img class="person-img" src="{{ profile.picture }}" alt=""></div>
+</div>
+<div class="three_fourth last">
+    <div class="person">
+        <div class="person-desc">
+            <div class="person-author person-author-dark clearfix">
+                <div class="person-author-wrapper">
+                    <span class="person-name">{{ profile.name }}</span>
+                    <span class="person-title"></span>
                 </div>
-                <div class="person-content">
-                    Associate Professor, Computer Science and Engineering Department, Seoul National University<br>
-                    Associate Director, Artificial Intelligence Institute, Seoul National University<br>
-                    Co-lead, SNU-Naver Hyperscale AI Center<br>
-                    CEO, FriendliAI<br>
-                    Email :&nbsp;<a href="mailto:{{ profile.email }}">{{ profile.email }}</a>&nbsp;<a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
-                    Homepage :&nbsp;<a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a>
-                    <p>
-                    </p>
-                    <p>Education<br>
-                    2007: Ph.D. Computer Science, University of California, Berkeley<br>
-                    2002: M.S. Computer Science, Stanford University<br>
-                    1996: M.S. Electronic Engineering, Seoul National University<br>
-                    1994: B.S. Electronic Engineering, Seoul National University</p>
-                    <p>Experience<br>
-                    2020: Visiting Researcher, Naver<br>
-                    2016: Research Scientist, Facebook Menlo Park<br>
-                    2012-2013: Principal Scientist, Microsoft Silicon Valley<br>
-                    2011-2012: Research Scientist, Yahoo! Research Silicon Valley<br>
-                    2008-2011: Research Scientist, Intel Research Berkeley<br>
-                    2007-2008: Postdoctoral Researcher, International Computer Science Institute<br>
-                    </p>
-                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="person-content">
+                Associate Professor, Computer Science and Engineering Department, Seoul National University<br>
+                Associate Director, Artificial Intelligence Institute, Seoul National University<br>
+                Co-lead, SNU-Naver Hyperscale AI Center<br>
+                CEO, FriendliAI<br>
+                Email :&nbsp;<a href="mailto:{{ profile.email }}">{{ profile.email }}</a>&nbsp;<a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+                Homepage :&nbsp;<a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a>
+                <p>
+                </p>
+                <p>Education<br>
+                2007: Ph.D. Computer Science, University of California, Berkeley<br>
+                2002: M.S. Computer Science, Stanford University<br>
+                1996: M.S. Electronic Engineering, Seoul National University<br>
+                1994: B.S. Electronic Engineering, Seoul National University</p>
+                <p>Experience<br>
+                2020: Visiting Researcher, Naver<br>
+                2016: Research Scientist, Facebook Menlo Park<br>
+                2012-2013: Principal Scientist, Microsoft Silicon Valley<br>
+                2011-2012: Research Scientist, Yahoo! Research Silicon Valley<br>
+                2008-2011: Research Scientist, Intel Research Berkeley<br>
+                2007-2008: Postdoctoral Researcher, International Computer Science Institute<br>
+                </p>
             </div>
         </div>
     </div>
-    {% endfor %}
+</div>
+{% endfor %}
 {% elsif role != 'alumni' %}
 <div class="content list people">
   {% for profile in people_sorted %}
