@@ -93,11 +93,13 @@ permalink: /people/
       <div class="list-item-people">
         <p class="list-post-title">
           {% if profile.picture %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
+            <img class="profile-thumbnail" src="{{profile.picture}}">
           {% else %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
+            <img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg">
           {% endif %}
-          <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
+          {{ profile.name }}
+          Email :&nbsp;<a href="mailto:{{ profile.email }}">{{ profile.email }}</a>&nbsp;<a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+          Homepage :&nbsp;<a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a>
         </p>
       </div>
     {% endif %}
@@ -118,5 +120,9 @@ permalink: /people/
     float: left;
     margin-bottom: 20px;
     position: relative;
+}
+#main .last {
+    margin-right: 0 !important;
+    clear: right;
 }
 </style>
