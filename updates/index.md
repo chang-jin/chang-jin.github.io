@@ -67,6 +67,7 @@ author:
 permalink: "/updates/"
 ---
 
+<div>
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
@@ -75,3 +76,4 @@ permalink: "/updates/"
   {% endif %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+</div>
