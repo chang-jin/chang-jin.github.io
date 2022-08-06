@@ -5,6 +5,6 @@ email: jaeseong.ryu@gmail.com
 pgpkey: http://goo.gl/QjbOVK
 position: alumni
 ---
-Software Engineer  
-KFTC  
-Seoul, Korea  
+Software Engineer
+KFTC
+Seoul, Korea

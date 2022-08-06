@@ -8,5 +8,5 @@ homepage: ejjeong.github.io
 position: alumni
 ---
 Software Engineer
-Samsung Research  
-Seoul, Korea  
+Samsung Research
+Seoul, Korea

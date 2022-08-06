@@ -6,5 +6,5 @@ pgpkey: http://goo.gl/iRT28w
 position: alumni
 ---
 Software Engineer
-SAP Labs Korea  
-Seoul, Korea  
+SAP Labs Korea
+Seoul, Korea

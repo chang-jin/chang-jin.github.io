@@ -6,5 +6,5 @@ pgpkey: http://goo.gl/Z7s2Yw
 position: alumni
 ---
 Software Engineer
-Facebook  
-California, United States  
+Facebook
+California, United States

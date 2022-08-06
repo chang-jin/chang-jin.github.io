@@ -6,5 +6,5 @@ pgpkey: http://goo.gl/FIWmy8
 position: alumni
 ---
 Professor
-KAIST  
-Daejeon, Korea  
+KAIST
+Daejeon, Korea
