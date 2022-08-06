@@ -4,8 +4,8 @@ title: Software Platform Lab @ SNU
 description: "This is a page for Software Platform lab at Seoul National University"
 
 #URL
-baseurl: "chang-jin.github.io"
-url: ""
+baseurl: ""
+url: "https://chang-jin.github.io"
 
 # Build settings
 theme: minima
