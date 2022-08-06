@@ -42,6 +42,8 @@ permalink: /people/
 {% for profile in people_sorted %}
 {% if profile.position contains role %}
 <div class="professor_area">
+      <div class="list-item-people">
+        <p class="list-post-title">
     <div class="one_fourth">
         <img src="{{ profile.picture }}" alt="">
     </div>
@@ -79,6 +81,8 @@ permalink: /people/
             </div>
         </div>
     </div>
+            </p>
+      </div>
 </div>
 <hr>
 <div id="clear" style="clear:both;"></div>
@@ -93,7 +97,9 @@ permalink: /people/
           <img class="profile-thumbnail" src="{{profile.picture}}">
           {{ profile.name }}<br>
           Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+          {% if profile.pgpkey %}
           <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+          {% endif %}
           {% if profile.homepage %}
             Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a>
           {% endif %}
