@@ -15,8 +15,8 @@ Associate Professor, Computer Science and Engineering Department, Seoul National
 Associate Director, Artificial Intelligence Institute, Seoul National University<br>
 Co-lead, SNU-Naver Hyperscale AI Center<br>
 CEO, FriendliAI<br>
-Email : <a href="mailto:{{ post.email }}">{{ post.email }}</a> <a href="{{ post.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
-Homepage : <a href="{{ post.homepage }}" target="_blank" rel="noopener noreferrer">{{ post.homepage }}</a>
+Email : <a href="mailto:{{ page.email }}">{{ page.email }}</a> <a href="{{ page.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+Homepage : <a href="{{ page.homepage }}" target="_blank" rel="noopener noreferrer">{{ page.homepage }}</a>
 </p>
 <p>Education<br>
 2007: Ph.D. Computer Science, University of California, Berkeley<br>
