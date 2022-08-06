@@ -74,20 +74,14 @@ permalink: /people/
       <div class="list-item-people">
         <p class="list-post-title">
           <img class="profile-thumbnail" src="{{profile.picture}}">
-          {{ profile.name }}<br>
+          {{ profile.name }}<br><br>
           Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
           {% if profile.pgpkey %}
-            <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a>
-          {% else %}
-            <br>
+            <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
           {% endif %}
-          <br>
           {% if profile.homepage %}
-            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a>
-          {% else %}
-            <br>
+            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
           {% endif %}
-          <br>
         </p>
       </div>
     {% endif %}
