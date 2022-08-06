@@ -90,11 +90,7 @@ permalink: /people/
     {% if profile.position contains role %}
       <div class="list-item-people">
         <p class="list-post-title">
-          {% if profile.picture %}
-            <img class="profile-thumbnail" src="{{profile.picture}}">
-          {% else %}
-            <img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg">
-          {% endif %}
+          <img class="profile-thumbnail" src="{{profile.picture}}">
           {{ profile.name }}<br>
           Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
           <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
