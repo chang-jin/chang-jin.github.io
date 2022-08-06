@@ -71,7 +71,7 @@ permalink: "/research/"
   <tbody>
     <tr>
       <td class="first" style="">
-        <img src="assets/ai_featured_image-300x286.jpg">
+        <img src="../assets/resources/ai_featured_image.jpg">
       </td>
       <td>
         <h3>
@@ -91,7 +91,7 @@ permalink: "/research/"
   <tbody>
     <tr>
       <td class="first">
-        <img src="assets/2-Big-Data-Engines-500X500-300x300.jpg">
+        <img src="../assets/resources/2-Big-Data-Engines.jpg">
       </td>
       <td class="second">
         <h3>
@@ -109,7 +109,7 @@ permalink: "/research/"
   <tbody>
     <tr>
       <td class="first">
-        <img src="assets/ApacheREEF_logo_no_margin-300x145.png">
+        <img src="../assets/resources/ApacheREEF_logo_no_margin.png">
       </td>
       <td class="second">
         <h3>
@@ -131,7 +131,7 @@ permalink: "/research/"
     </tr>
     <tr>
       <td class="first">
-        <img src="assets/4-New-Security-Architecture-1000X470-300x225.jpg">
+        <img src="../assets/resources/4-New-Security-Architecture.jpg">
       </td>
       <td class="second">
         <h3>
@@ -142,7 +142,7 @@ permalink: "/research/"
     </tr>
     <tr>
       <td class="first">
-        <img src="assets/mobile_cloud_main-300x243.jpg">
+        <img src="../assets/resources/mobile_cloud_main.jpg">
       </td>
       <td class="second">
         <h3>
