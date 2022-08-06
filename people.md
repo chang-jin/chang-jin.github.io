@@ -96,8 +96,11 @@ permalink: /people/
             <img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg">
           {% endif %}
           {{ profile.name }}<br>
-          Email :&nbsp;<a href="mailto:{{ profile.email }}">{{ profile.email }}</a>&nbsp;<a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
-          Homepage :&nbsp;<a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a>
+          Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+          <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+          {% if profile.homepage %}
+            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a>
+          {% endif %}
         </p>
       </div>
     {% endif %}
