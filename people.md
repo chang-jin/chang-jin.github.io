@@ -10,6 +10,7 @@ author:
 permalink: /people/
 ---
 
+<!-- TODO : sort as joined for students -->
 {% assign people_sorted = site.people %}
 {% assign role_array = "professor|postdoc|phd|ms|intern|alumni" | split: "|" %}
 
@@ -64,8 +65,6 @@ permalink: /people/
     </p>
   </div>
 </div>
-<hr>
-<div id="clear" style="clear:both;"></div>
 {% endif %}
 {% endfor %}
 {% elsif role != 'alumni' %}
@@ -94,9 +93,6 @@ permalink: /people/
     {% endif %}
   {% endfor %}
 </div>
-<hr>
-<div id="clear" style="clear:both;"></div>
 {% endif %}
-
 
 {% endfor %}
