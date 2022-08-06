@@ -67,6 +67,7 @@ permalink: /people/
 </div>
 {% endif %}
 {% endfor %}
+<hr>
 {% elsif role != 'alumni' %}
 <div class="content list people">
   {% for profile in people_sorted %}
@@ -87,6 +88,7 @@ permalink: /people/
     {% endif %}
   {% endfor %}
 </div>
+<hr>
 {% endif %}
 
 {% endfor %}
