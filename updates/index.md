@@ -66,4 +66,12 @@ author:
   last_name: ''
 permalink: "/updates/"
 ---
-<p>[blog number_posts="6" cat_slug="" title="yes" thumbnail="yes" excerpt="yes" excerpt_words="55" meta_all="yes" meta_author="yes" meta_categories="yes" meta_comments="yes" meta_date="yes" meta_link="yes" paging="yes" scrolling="pagination" strip_html="yes" layout="medium"][/blog]</p>
+
+{% for post in site.posts %}
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    <li id="y{{currentdate}}">{{ currentdate }}</li>
+    {% assign date = currentdate %} 
+  {% endif %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
