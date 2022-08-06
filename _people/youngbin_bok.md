@@ -1,6 +1,6 @@
 ---
 name: Youngbin Bok
-picture: ../assets/2015/07/ybbok.jpg
+picture: ../assets/people/ybbok.jpg
 email: bokyoungbin@gmail.com
 pgpkey: https://goo.gl/17IoOr
 position: alumni

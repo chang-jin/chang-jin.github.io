@@ -1,6 +1,6 @@
 ---
 name: Tae-Hun Kim
-picture: ../assets/2014/06/thkim.jpg
+picture: ../assets/people/thkim.jpg
 email: rapaellk29@gmail.com
 pgpkey: http://goo.gl/M8e4Iu
 position: alumni

@@ -1,6 +1,6 @@
 ---
 name: Gyewon Lee
-picture: ../assets/2013/01/gyewon_new.png
+picture: ../assets/people/gyewon_new.png
 graduated: SNU CSE PhD, 2022
 email: strayyyyyy@gmail.com
 homepage: differentsc.github.io

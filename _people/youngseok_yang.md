@@ -1,6 +1,6 @@
 ---
 name: Youngseok Yang
-picture: ../assets/2013/01/youngseok.jpg
+picture: ../assets/people/youngseok.jpg
 graduated: SNU CSE PhD, 2021
 email: johnyangk@gmail.com
 pgpkey: http://goo.gl/KKcO9

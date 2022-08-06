@@ -1,6 +1,6 @@
 ---
 name: Junyul Ryu
-picture: ../assets/2013/01/junyul.png
+picture: ../assets/people/junyul.png
 email: gajagajago@snu.ac.kr
 homepage: https://github.com/gajagajago
 position: ms
