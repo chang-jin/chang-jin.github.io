@@ -120,7 +120,7 @@ permalink: "/research/"
     </tr>
     <tr>
       <td class="first">
-        <img src="assets/3_data_centric_lowr-300x244.jpg">
+        <img src="../assets/resources/3_data_centric_lowr.jpg">
       </td>
       <td class="second">
         <h3>
