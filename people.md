@@ -42,27 +42,27 @@ permalink: /people/
 {% for profile in people_sorted %}
 {% if profile.position contains role %}
 <div class="professor_area">
-      <div class="list-item-people">
-        <p class="list-post-title">
-    <div class="one_fourth">
-        <img src="{{ profile.picture }}" alt="">
-    </div>
-    <div class="three_fourth last">
-        <div class="person-desc">
-            <div class="person-author person-author-dark clearfix">
-                <div class="person-author-wrapper">
-                    <span class="person-name">{{ profile.name }}</span>
-                    <span class="person-title"></span>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="person-content">
-              {{ profile.content }}
-            </div>
-        </div>
-    </div>
-            </p>
+  <div class="list-item-people">
+    <p class="list-post-title">
+      <div class="one_fourth">
+          <img src="{{ profile.picture }}" alt="">
       </div>
+      <div class="three_fourth last">
+          <div class="person-desc">
+              <div class="person-author person-author-dark clearfix">
+                  <div class="person-author-wrapper">
+                      <span class="person-name">{{ profile.name }}</span>
+                      <span class="person-title"></span>
+                  </div>
+                  <div class="clear"></div>
+              </div>
+              <div class="person-content">
+                {{ profile.content }}
+              </div>
+          </div>
+      </div>
+    </p>
+  </div>
 </div>
 <hr>
 <div id="clear" style="clear:both;"></div>
