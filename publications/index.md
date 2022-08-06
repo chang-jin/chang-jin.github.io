@@ -96,7 +96,7 @@ Hyeonmin Ha, Ji-Hoon Kim, Semin Park, Byung-Gon Chun. To appear in ICLR 2022.
 
 <h2>2021</h2>
 
-**Terra: Imperative-Symbolic Co-Execution of Imperative Deep Learning Programs [[pdf](https://proceedings.neurips.cc/{{site.url}}/assets/paper//2021/file/0b32f1a9efe5edf3dd2f38b0c0052bfe-Paper.pdf)]**  
+**Terra: Imperative-Symbolic Co-Execution of Imperative Deep Learning Programs [[pdf](https://proceedings.neurips.cc/{{site.url}}/assets/paper/2021/file/0b32f1a9efe5edf3dd2f38b0c0052bfe-Paper.pdf)]**  
 Taebum Kim, Eunji Jeong, Geon-Woo Kim, Yunmo Koo, Sehoon Kim, Gyeong-In Yu, Byung-Gon Chun. 35th Conference on Neural Information Processing Systems (NeurIPS 2021), December 2021.
 
 **SCOPA: Soft Code-Switching and Pairwise Alignment for Zero-shot Cross-lingual Transfer**  
@@ -119,7 +119,7 @@ Woo-Yeon Lee, Yunseong Lee, Wonwook Song, Youngseok Yang, Joo Yeon Kim, Byung-Go
 
 <h2>2020</h2>
 
-**Nimble: Lightweight and Parallel GPU Task Scheduling for Deep Learning [[pdf](https://proceedings.neurips.cc/{{site.url}}/assets/paper//2020/file/5f0ad4db43d8723d18169b2e4817a160-Paper.pdf)]**  
+**Nimble: Lightweight and Parallel GPU Task Scheduling for Deep Learning [[pdf](https://proceedings.neurips.cc/{{site.url}}/assets/paper/2020/file/5f0ad4db43d8723d18169b2e4817a160-Paper.pdf)]**  
 Woosuk Kwon*, Gyeong-In Yu*, Eunji Jeong, Byung-Gon Chun (*equal contribution). 34th Conference on Neural Information Processing Systems (NeurIPS 2020) (_Spotlight_), December 2020.
 
 **A Tensor-based Approach for One-size-fits-all ML Prediction Serving [[pdf](https://www.usenix.org/system/files/osdi20-nakandala.pdf)]**  
@@ -133,7 +133,7 @@ Ahnjae Shin, Do Yoon Kim, Joo Seong Jeong, Byung-Gon Chun. Hippo: Taming Hyper-p
 
 <h2>2019</h2>
 
-**Stage-based Hyper-parameter Optimization for Deep Learning [[pdf]({{site.url}}/assets/paper//hippo.pdf)]**  
+**Stage-based Hyper-parameter Optimization for Deep Learning [[pdf]({{site.url}}/assets/paper/hippo.pdf)]**  
 Ahnjae Shin, Dong-Jin Shin, Sungwoo Cho, Do Yoon Kim, Eunji Jeong, Gyeong-In Yu, Byung-Gon Chun. Stage-based Hyper-parameter Optimization for Deep Learning. Systems for ML Workshop at NeurIPS 2019, December 2019.
 
 **Compiling Classical ML Pipelines into Tensor Computations for One-size-fits-all Prediction Serving**  
@@ -142,22 +142,22 @@ Supun Nakandala, Gyeong-In Yu, Markus Weimer, Matteo Interlandi. Systems for ML 
 **Knowledge Extraction with No Observable Data**  
 Jaemin Yoo, Minyong Cho, Taebum Kim, and U Kang. Knowledge Extraction with No Observable Data. 33rd Conference on Neural Information Processing Systems (NeurIPS 2019), December 2019.
 
-**Speculative Symbolic Graph Execution of Imperative Deep Learning Programs [[pdf]({{site.url}}/assets/paper//acm-janus.pdf)]**  
+**Speculative Symbolic Graph Execution of Imperative Deep Learning Programs [[pdf]({{site.url}}/assets/paper/acm-janus.pdf)]**  
 Eunji Jeong, Sungwoo Cho, Gyeong-In Yu, Joo Seong Jeong, Dong-Jin Shin, Taebum Kim, Byung-Gon Chun. Speculative Symbolic Graph Execution of Imperative Deep Learning Programs. SIGOPS Operating Systems Review, July 2019.
 
 **Apache Nemo: A Framework for Building Distributed Dataflow Optimization Policies [[pdf](https://www.usenix.org/system/files/atc19-yang-youngseok.pdf)]**  
 Youngseok Yang, Jeongyoon Eo, Geon-Woo Kim, Joo Yeon Kim, Sanha Lee, Jangho Seo, Won Wook Song, Byung-Gon Chun. Apache Nemo: A Framework for Building Distributed Dataflow Optimization Policies. 2019 Annual Technical Conference (ATC 2019), July 2019.
 
-**Automating System Configuration of Distributed Machine Learning [[pdf]({{site.url}}/assets/paper//eml.pdf)]**  
+**Automating System Configuration of Distributed Machine Learning [[pdf]({{site.url}}/assets/paper/eml.pdf)]**  
 Woo-Yeon Lee, Yunseong Lee, Joo Seong Jeong, Gyeong-In Yu, Joo Yeon Kim, Ho Jin Park, Beomyeol Jeon, Wonwook Song, Gunhee Kim, Markus Weimer, Brian Cho, Byung-Gon Chun. Automating System Configuration of Distributed Machine Learning. 39th International Conference on Distributed Computing Systems (ICDCS 2019), July 2019.
 
 **Making Classical Machine Learning Pipelines Differentiable: A Neural Translation Approach [[pdf](https://arxiv.org/pdf/1906.03822.pdf)]**  
 Gyeong-In Yu, Saeed Amizadeh, Artidoro Pagnoni, Byung-Gon Chun, Markus Weimer, Matteo Interlandi. Making Classical Machine Learning Pipelines Differentiable: A Neural Translation Approach. arXiv:1906.03822, June 2019.
 
-**Demonstration of JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs [[pdf]({{site.url}}/assets/paper//demo_17.pdf)]**  
+**Demonstration of JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs [[pdf]({{site.url}}/assets/paper/demo_17.pdf)]**  
 Eunji Jeong, Sungwoo Cho, Gyeong-In Yu, Joo Seong Jeong, Dongjin Shin, Byung-Gon Chun. Demonstration of JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs. SysML Demo 2019, April 2019.
 
-**Parallax: Sparsity-aware Data Parallel Training of Deep Neural Networks. [[pdf]({{site.url}}/assets/paper//parallax.pdf)]**  
+**Parallax: Sparsity-aware Data Parallel Training of Deep Neural Networks. [[pdf]({{site.url}}/assets/paper/parallax.pdf)]**  
 Soojeong Kim, Gyeong-In Yu, Hojin Park, Sungwoo Cho, Eunji Jeong, Hyeonmin Ha, Sanha Lee, Joo Seong Jeong, Byung-Gon Chun. Parallax: Sparsity-aware Data Parallel Training of Deep Neural Networks. 14th European Conference on Computer Systems (EuroSys 2019), March 2019.
 
 **JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs  [[pdf](https://www.usenix.org/system/files/nsdi19-jeong.pdf)]**  
@@ -165,50 +165,50 @@ Eunji Jeong, Sungwoo Cho, Gyeong-In Yu, Joo Seong Jeong, Dongjin Shin, Byung-Gon
 
 <h2>2018</h2>
 
-**From the Edge to the Cloud: Model Serving in ML.NET [[pdf]({{site.url}}/assets/paper//p46.pdf)]**  
+**From the Edge to the Cloud: Model Serving in ML.NET [[pdf]({{site.url}}/assets/paper/p46.pdf)]**  
 Yunseong Lee, Alberto Scolari, Byung-Gon Chun, Markus Weimer, Matteo Interlandi. From the Edge to the Cloud: Model Serving in ML.NET. IEEE Data Engineering Bulletin, December 2018.
 
-**Making Classical Machine Learning Pipelines Differentiable: A Neural Translation Approach [[pdf]({{site.url}}/assets/paper//finetune.pdf)]**  
+**Making Classical Machine Learning Pipelines Differentiable: A Neural Translation Approach [[pdf]({{site.url}}/assets/paper/finetune.pdf)]**  
 Gyeong-In Yu, Saeed Amizadeh, Byung-Gon Chun, Markus Weimer, Matteo Interlandi. Making Classical Machine Learning Pipelines Differentiable: A Neural Translation Approach. Systems for ML Workshop at NIPS 2018, December 2018.
 
-**PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems [[pdf]({{site.url}}/assets/paper//osdi18_paper355_camera_ready.pdf)]**  
+**PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems [[pdf]({{site.url}}/assets/paper/osdi18_paper355_camera_ready.pdf)]**  
 Yunseong Lee, Alberto Scolari, Byung-Gon Chun, Marco Domenico Santambrogio, Markus Weimer, Matteo Interlandi. PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems. 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018), October 2018.
 
-**High-Performance Stateful Stream Processing on Solid-State Drives [[pdf]({{site.url}}/assets/paper//a9-lee.pdf)]**  
+**High-Performance Stateful Stream Processing on Solid-State Drives [[pdf]({{site.url}}/assets/paper/a9-lee.pdf)]**  
 Gyewon Lee, Jeongyoon Eo, Jangho Seo, Taegeon Um, Byung-Gon Chun. High-Performance Stateful Stream Processing on Solid-State Drives. 9th ACM SIGOPS Asia-Pacific Workshop on Systems (APSys 2018), August 2018.
 
 **Parallax: Automatic Data-Parallel Training of Deep Neural Networks [[pdf](https://arxiv.org/pdf/1808.02621.pdf)]**  
 Soojeong Kim, Gyeong-In Yu, Hojin Park, Sungwoo Cho, Eunji Jeong, Hyeonmin Ha, Sanha Lee, Joo Seong Jeong, Byung-Gon Chun. Parallax: Automatic Data-Parallel Training of Deep Neural Networks, arXiv:1808.02621, August 2018.
 
-**Improving the Expressiveness of Deep Learning Frameworks with Recursion [[pdf]({{site.url}}/assets/paper//eurosys18-rdag.pdf)]**  
+**Improving the Expressiveness of Deep Learning Frameworks with Recursion [[pdf]({{site.url}}/assets/paper/eurosys18-rdag.pdf)]**  
 Eunji Jeong*, Joo Seong Jeong*, Soojeong Kim, Gyeong-In Yu, Byung-Gon Chun (*equal contribution). Improving the Expressiveness of Deep Learning Frameworks with Recursion. 13th European Conference on Computer Systems (EuroSys 2018), April 2018.
 
-**Towards High-Performance Prediction Serving Systems [[pdf]({{site.url}}/assets/paper//18-sysml-pretzel.pdf)]**  
+**Towards High-Performance Prediction Serving Systems [[pdf]({{site.url}}/assets/paper/18-sysml-pretzel.pdf)]**  
 Yunseong Lee, Alberto Scolari, Matteo Interlandi, Markus Weimer, Byung-Gon Chun. Towards High-Performance Prediction Serving Systems. SysML Conference, February 2018.
 
 <h2>2017</h2>
 
-**Towards High-Performance Prediction Serving Systems [[pdf]({{site.url}}/assets/paper//2017-NIPS-LearningSys-Scoring.pdf)]**  
+**Towards High-Performance Prediction Serving Systems [[pdf]({{site.url}}/assets/paper/2017-NIPS-LearningSys-Scoring.pdf)]**  
 Yunseong Lee, Alberto Scolari, Matteo Interlandi, Markus Weimer, Byung-Gon Chun. Towards High-Performance Prediction Serving Systems. ML Systems Workshop at NIPS 2017, December 2017.
 
-**Auto-Parallelizing Deep Learning for Multi-machine, Multi-GPU Environments [[pdf]({{site.url}}/assets/paper//Parallax-11.pdf)]**
+**Auto-Parallelizing Deep Learning for Multi-machine, Multi-GPU Environments [[pdf]({{site.url}}/assets/paper/Parallax-11.pdf)]**
 Soojeong Kim, Eunji Jeong, Joo Seong Jeong, Gyeongin Yu, Hojin Park, Byung-Gon Chun. Auto-Parallelizing Deep Learning for Multi-machine, Multi-GPU Environments. Workshop on AI Systems at Symposium on Operating Systems Principles 2017, October 2017.
 
-**Apache REEF: Retainable Evaluator Execution Framework [[pdf]({{site.url}}/assets/paper//a5-chun-1.pdf)]**
+**Apache REEF: Retainable Evaluator Execution Framework [[pdf]({{site.url}}/assets/paper/a5-chun-1.pdf)]**
 Byung-Gon Chun, Tyson Condie, Yingda Chen, Brian Cho, Andrew Chung, Carlo Curino, Chris Douglas, Matteo Interlandi, Beomyeol Jeon, Joo Seong Jeong, Gye-Won Lee, Yunseong Lee, Tony Majestro, Dahlia Malkhi, Sergiy Matusevych, Brandon Myers, Mariia Mykhailova, Shravan Narayanamurthy, Joseph Noor, Raghu Ramakrishnan, Sriram Rao, Russell Sears, Beysim Sezgin, Tae-Geon Um, Julia Wang, Markus Weimer, Markus Weimer, Youngseok Yang. Apache REEF: Retainable Evaluator Execution Framework. ACM Transactions on Computer Systems (TOCS 2017), October 2017.
 
-**Scaling Up IoT Stream Processing [[pdf]({{site.url}}/assets/paper//mist.pdf)]**
+**Scaling Up IoT Stream Processing [[pdf]({{site.url}}/assets/paper/mist.pdf)]**
 Taegeon Um, Gyewon Lee, Sanha Lee, Kyungtae Kim, Byung-Gon Chun. Scaling Up IoT Stream Processing. 8th ACM SIGOPS Asia-Pacific Workshop on Systems (APSys 2017), September 2017.
 
-**Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters [[pdf]({{site.url}}/assets/paper//p575-Yang.pdf)]**
+**Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters [[pdf]({{site.url}}/assets/paper/p575-Yang.pdf)]**
 Youngseok Yang, Geon-Woo Kim, Won Wook Song, Yunseong Lee, Andrew Chung, Zhengping Qian, Brian Cho, Byung-Gon Chun. Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters. 12th European Conference on Computer Systems (EuroSys 2017), April 2017.
 
-**Breaking Ad-hoc Runtime Integrity Protection Mechanisms in Android Financial Apps [[pdf]({{site.url}}/assets/paper//p179-kim.pdf)]**
+**Breaking Ad-hoc Runtime Integrity Protection Mechanisms in Android Financial Apps [[pdf]({{site.url}}/assets/paper/p179-kim.pdf)]**
 Taehun Kim, Hyeonmin Ha, Seoyoon Choi, Jaeyeon Jung, Byung-Gon Chun. Breaking Ad-hoc Runtime Integrity Protection Mechanisms in Android Financial Apps. ACM Asia Conference on Computer and Communications Security (ASIACCS 2017), April 2017.
 
 <h2>2016</h2>
 
-**Dolphin: Runtime Optimization for Distributed Machine Learning [[pdf]({{site.url}}/assets/paper//2016-ICML-LearningSys-Dolphin.pdf)]**
+**Dolphin: Runtime Optimization for Distributed Machine Learning [[pdf]({{site.url}}/assets/paper/2016-ICML-LearningSys-Dolphin.pdf)]**
 Byung-Gon Chun, Brian Cho, Beomyeol Jeon, Joo Seong Jeong, Gunhee Kim, Joo Yeon Kim, Woo-Yeon Lee, Yun Seong Lee, Markus Weimer, Gyeong-In Yu. Dolphin: Runtime Optimization for Distributed Machine Learning. ICML ML Sys '16 workshop, June 2016.
 
 **Collaborative Analytics for Data Silos**
@@ -222,7 +222,7 @@ Daejin Choi, Jinyoung Han, Taejoong Chung, Yong-Yeol Ahn, Byung-Gon Chun, Ted �
 **Mantis: Efficient Predictions of Execution Time, Energy Usage, Memory Usage and Network Usage on Smart Mobile Devices**  
 Sanguine Lee, Hayoon Yi, Donghyun Kwon, Seungjun Yang, Byung-Gon Chun, Ling Huang, Petros Maniatis, Mayur Naik, Yunheung Paek. Mantis: Efficient Predictions of Execution Time, Energy Usage, Memory Usage and Network Usage on Smart Mobile Devices. IEEE Transactions on Mobile Computing, August 2015.
 
-**REEF: Retainable Evaluator Execution Framework [[pdf]({{site.url}}/assets/paper//2015-SIGMOD.pdf)]**
+**REEF: Retainable Evaluator Execution Framework [[pdf]({{site.url}}/assets/paper/2015-SIGMOD.pdf)]**
 <span style="line-height: 1.5;">Markus Weimer, Yingda Chen, Byung-Gon Chun, Tyson Condie, Carlo Curino, Chris Douglas, Yunseong Lee, Tony Majestro, Dahlia Malkhi , Sergiy Matusevych, Brandon Myers, Shravan Narayanamurthy, Raghu Ramakrishnan, Sriram Rao, Russell Sears, Beysim Sezgin, Julia Wang. REEF: Retainable Evaluator Execution Framework.</span><span style="line-height: 1.5;">ACM SIGMOD, June 2015.</span>
 
 **Elastic Memory: Bring Elasticity Back To In-Memory Big Data Analytics [[pdf](https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-jeong.pdf)]**  
