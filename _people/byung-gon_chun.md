@@ -10,8 +10,7 @@ homepage : https://bgchun.github.io
 git : 
 ---
 
-<div class="person-content">
-    <p>
+<p>
     Associate Professor, Computer Science and Engineering Department, Seoul National University<br>
     Associate Director, Artificial Intelligence Institute, Seoul National University<br>
     Co-lead, SNU-Naver Hyperscale AI Center<br>
@@ -31,5 +30,4 @@ git :
     2011-2012: Research Scientist, Yahoo! Research Silicon Valley<br>
     2008-2011: Research Scientist, Intel Research Berkeley<br>
     2007-2008: Postdoctoral Researcher, International Computer Science Institute<br>
-    </p>
-</div>
+</p>

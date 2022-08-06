@@ -56,7 +56,9 @@ permalink: /people/
                 </div>
                 <div class="clear"></div>
             </div>
-            {{ profile.content }}
+            <div class="person-content">
+              {{ profile.content }}
+            </div>
         </div>
     </div>
             </p>
@@ -76,11 +78,17 @@ permalink: /people/
           {{ profile.name }}<br>
           Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
           {% if profile.pgpkey %}
-          <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+            <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a>
+          {% else %}
+            <br>
           {% endif %}
+          <br>
           {% if profile.homepage %}
             Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a>
+          {% else %}
+            <br>
           {% endif %}
+          <br>
         </p>
       </div>
     {% endif %}
