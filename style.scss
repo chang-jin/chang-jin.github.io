@@ -403,6 +403,11 @@ tbody tr:nth-child(odd) th {
 // customization
 .pos_header {
     padding-left: 0.5em;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    height: 6px;
 }
 
 .people {
@@ -524,7 +529,7 @@ hr.solid {
     height: 6px;
 }
 
-.title .title-sep-container {
+.title-sep-container {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
