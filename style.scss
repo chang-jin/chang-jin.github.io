@@ -513,3 +513,21 @@ tbody tr:nth-child(odd) th {
 hr.solid {
     border-top: 3px solid #bbb;
 }
+
+.title-sep {
+    display: block;
+    border-color: #e0dede !important;
+    border-top: 1px solid #e7e6e6;
+    border-bottom: 1px solid #e7e6e6;
+    width: 100%;
+    position: relative;
+    height: 6px;
+}
+
+.title .title-sep-container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    height: 6px;
+}

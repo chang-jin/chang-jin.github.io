@@ -24,19 +24,22 @@ permalink: /people/
 {% endif %}
 
 <div class="pos_header">
-    {% if role == 'professor' %}
-    <h3>Professor</h3>
-    {% elsif role == 'postdoc' %}
-    <h3>Postdocs</h3>
-    {% elsif role == 'phd' %}
-    <h3>Ph.D.  Students</h3>
-    {% elsif role == 'ms' %}
-    <h3>M.S.  Students</h3>
-    {% elsif role == 'intern' %}
-    <h3>Intern</h3><
-    {% elsif role == 'alumni' %}
-    <h3>Alumni</h3>
-    {% endif %}
+  {% if role == 'professor' %}
+  <h3>Professor</h3>
+  {% elsif role == 'postdoc' %}
+  <h3>Postdocs</h3>
+  {% elsif role == 'phd' %}
+  <h3>Ph.D.  Students</h3>
+  {% elsif role == 'ms' %}
+  <h3>M.S.  Students</h3>
+  {% elsif role == 'intern' %}
+  <h3>Intern</h3><
+  {% elsif role == 'alumni' %}
+  <h3>Alumni</h3>
+  {% endif %}
+  <div class="title-sep-container">
+    <div class="title-sep"></div>
+  </div>
 </div>
 
 {% if role == 'professor' %}
