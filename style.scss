@@ -407,8 +407,6 @@ tbody tr:nth-child(odd) th {
     flex-direction: column;
     vertical-align: middle;
     width: 100%;
-    position: relative;
-    height: 6px;
 }
 
 .people {
@@ -531,7 +529,7 @@ hr.solid {
 }
 
 .title-sep-container {
-    margin-left: 0.5rem;
+    padding-left: 1rem;
     display: table-cell;
     vertical-align: middle;
     width: 100%;
