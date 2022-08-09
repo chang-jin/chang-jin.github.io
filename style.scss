@@ -109,7 +109,6 @@ dd {
 }
 
 ul {
-    /*font-family: Helvetica, 'Ubuntu Mono';*/
     font-size: 0.8rem;
     list-style: inside circle;
     padding-left: 0;
@@ -284,13 +283,8 @@ tbody tr:nth-child(odd) th {
 
 .container {
     max-width: 50rem;
-    //  padding: 2rem 1.5rem;
     margin-left: auto;
     margin-right: auto;
-
-    @media (min-width: 50rem) {
-        //    padding: 5rem 1rem;
-    }
 }
 
 .masthead {
@@ -405,7 +399,7 @@ tbody tr:nth-child(odd) th {
 .pos_header {
     padding-top: 2em;
     padding-left: 0.5em;
-    display: table;
+    display: inline-block;
     flex-direction: column;
     vertical-align: middle;
     width: 100%;
@@ -418,7 +412,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .list-item-people {
-    width: 25%;
+    width: 24%;
     display: inline-block;
     padding-left: 0.5em;
     padding-right: 0.5em;
