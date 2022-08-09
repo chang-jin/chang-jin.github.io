@@ -25,17 +25,17 @@ permalink: /people/
 
 <div class="pos_header">
     {% if role == 'professor' %}
-    <h3>Professor</h3>
+    <h3>Professor</h3><hr class="solid">
     {% elsif role == 'postdoc' %}
-    <h3>Postdocs</h3>
+    <h3>Postdocs</h3><hr class="solid">
     {% elsif role == 'phd' %}
-    <h3>Ph.D.  Students</h3>
+    <h3>Ph.D.  Students</h3><hr class="solid">
     {% elsif role == 'ms' %}
-    <h3>M.S.  Students</h3>
+    <h3>M.S.  Students</h3><hr class="solid">
     {% elsif role == 'intern' %}
-    <h3>Intern</h3>
+    <h3>Intern</h3><hr class="solid">
     {% elsif role == 'alumni' %}
-    <h3>Alumni</h3>
+    <h3>Alumni</h3><hr class="solid">
     {% endif %}
 </div>
 
@@ -107,5 +107,5 @@ permalink: /people/
   {% endfor %}
 </div>
 {% endif %}
-<hr>
+
 {% endfor %}

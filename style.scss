@@ -508,3 +508,8 @@ tbody tr:nth-child(odd) th {
     flex-direction: column;
     width: "100%";
 }
+
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+}
