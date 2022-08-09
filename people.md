@@ -25,17 +25,17 @@ permalink: /people/
 
 <div class="pos_header">
     {% if role == 'professor' %}
-    <h3>Professor</h3><hr class="solid">
+    <h3>Professor</h3>
     {% elsif role == 'postdoc' %}
-    <h3>Postdocs</h3><hr class="solid">
+    <h3>Postdocs</h3>
     {% elsif role == 'phd' %}
-    <h3>Ph.D.  Students</h3><hr class="solid">
+    <h3>Ph.D.  Students</h3>
     {% elsif role == 'ms' %}
-    <h3>M.S.  Students</h3><hr class="solid">
+    <h3>M.S.  Students</h3>
     {% elsif role == 'intern' %}
-    <h3>Intern</h3><hr class="solid">
+    <h3>Intern</h3><
     {% elsif role == 'alumni' %}
-    <h3>Alumni</h3><hr class="solid">
+    <h3>Alumni</h3>
     {% endif %}
 </div>
 
@@ -45,21 +45,21 @@ permalink: /people/
     <div class="professor_area">
       <p class="list-post-title">
         <div class="one_fourth">
-            <img src="{{ profile.picture }}" alt="">
+          <img src="{{ profile.picture }}" alt="">
         </div>
         <div class="three_fourth last">
-            <div class="person-desc">
-                <div class="person-author person-author-dark clearfix">
-                    <div class="person-author-wrapper">
-                        <span class="person-name">{{ profile.name }}</span>
-                        <span class="person-title"></span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="person-content">
-                  {{ profile.content }}
-                </div>
+          <div class="person-desc">
+            <div class="person-author person-author-dark clearfix">
+              <div class="person-author-wrapper">
+                  <span class="person-name">{{ profile.name }}</span>
+                  <span class="person-title"></span>
+              </div>
+              <div class="clear"></div>
             </div>
+            <div class="person-content">
+              {{ profile.content }}
+            </div>
+          </div>
         </div>
       </p>
     </div>
@@ -104,5 +104,5 @@ permalink: /people/
   {% endfor %}
 </div>
 {% endif %}
-
+<hr class="solid">
 {% endfor %}
