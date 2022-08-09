@@ -403,7 +403,8 @@ tbody tr:nth-child(odd) th {
 // customization
 .pos_header {
     padding-left: 0.5em;
-    display: table-cell;
+    display: table;
+    flex-direction: column;
     vertical-align: middle;
     width: 100%;
     position: relative;

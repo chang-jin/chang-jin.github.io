@@ -45,27 +45,27 @@ permalink: /people/
 {% if role == 'professor' %}
   {% assign people_in_role_sorted = people_in_role | sort: 'joined' %}
   {% for profile in people_in_role_sorted %}
-    <div class="professor_area">
-      <p class="list-post-title">
-        <div class="one_fourth">
-          <img src="{{ profile.picture }}" alt="">
-        </div>
-        <div class="three_fourth last">
-          <div class="person-desc">
-            <div class="person-author person-author-dark clearfix">
-              <div class="person-author-wrapper">
-                  <span class="person-name">{{ profile.name }}</span>
-                  <span class="person-title"></span>
-              </div>
-              <div class="clear"></div>
-            </div>
-            <div class="person-content">
-              {{ profile.content }}
-            </div>
-          </div>
-        </div>
-      </p>
+<div class="professor_area">
+  <p class="list-post-title">
+    <div class="one_fourth">
+      <img src="{{ profile.picture }}" alt="">
     </div>
+    <div class="three_fourth last">
+      <div class="person-desc">
+        <div class="person-author person-author-dark clearfix">
+          <div class="person-author-wrapper">
+            <span class="person-name">{{ profile.name }}</span>
+            <span class="person-title"></span>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="person-content">
+          {{ profile.content }}
+        </div>
+      </div>
+    </div>
+  </p>
+</div>
   {% endfor %}
 {% elsif role != 'alumni' %}
 <div class="content list people">
