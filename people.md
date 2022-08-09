@@ -90,21 +90,20 @@ permalink: /people/
   {% assign people_in_role = people_sorted | where: 'position', role %}
   {% assign people_in_role_sorted = people_in_role | sort: 'order' | reverse %}
   {% for profile in people_in_role_sorted %}
-      <div class="list-item-people">
-        <p class="list-post-title">
-          <img class="profile-thumbnail" src="{{ profile.picture }}">
-          {{ profile.name }}<br><br>
-          {{ profile.content }}
-          Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
-          {% if profile.pgpkey %}
-            <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
-          {% endif %}
-          {% if profile.homepage %}
-            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
-          {% endif %}
-        </p>
-      </div>
-    {% endif %}
+    <div class="list-item-people">
+      <p class="list-post-title">
+        <img class="profile-thumbnail" src="{{ profile.picture }}">
+        {{ profile.name }}<br><br>
+        {{ profile.content }}
+        Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+        {% if profile.pgpkey %}
+          <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+        {% endif %}
+        {% if profile.homepage %}
+          Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
+        {% endif %}
+      </p>
+    </div>
   {% endfor %}
 </div>
 {% endif %}
