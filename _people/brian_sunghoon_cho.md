@@ -1,10 +1,10 @@
 ---
 name: Brian Sunghoon Cho
-picture: ../assets/people/cmslab_profile.jpg
+picture: ../assets/people/brian.jpg
 email: chobrian@gmail.com 
 pgpkey: http://goo.gl/Z7s2Yw
 position: alumni
 ---
-Software Engineer
-Facebook
-California, United States
+Software Engineer<br>
+Facebook<br>
+California, United States<br>

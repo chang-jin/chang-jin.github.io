@@ -5,6 +5,6 @@ graduated: SNU CSE MS, 2022
 email: donghyunkim816@gmail.com
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0x6E0313B98B899BDE
 ---
-Software Engineer
-FriendliAI
-Seoul, Korea
+Software Engineer<br>
+FriendliAI<br>
+Seoul, Korea<br>

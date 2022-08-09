@@ -7,6 +7,6 @@ pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0x3A45745D7CF41583
 homepage: github.com/Algy
 position: alumni
 ---
-Software Engineer
-FriendliAI
-Seoul, Korea
+Software Engineer<br>
+FriendliAI<br>
+Seoul, Korea<br>

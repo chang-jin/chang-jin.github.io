@@ -5,6 +5,6 @@ email: beomyeolj@gmail.com
 pgpkey: https://goo.gl/JHzSDg
 position: alumni
 ---
-Graduate Student
-University of Illinois Urbana-Champaign
-Champaign, United States
+Graduate Student<br>
+University of Illinois Urbana-Champaign<br>
+Champaign, United States<br>

@@ -7,6 +7,6 @@ homepage: differentsc.github.io
 pgpkey: http://goo.gl/TZ1Ax6
 position: alumni
 ---
-Software Engineer
-FriendliAI
-Seoul, Korea
+Software Engineer<br>
+FriendliAI<br>
+Seoul, Korea<br>

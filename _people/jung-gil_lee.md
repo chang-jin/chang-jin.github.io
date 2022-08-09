@@ -5,6 +5,6 @@ email: junggil.lee@snu.ac.kr
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0x22885492CF12199C
 position: alumni
 ---
-Software Engineer
-Google Korea
-Seoul, Korea
+Software Engineer<br>
+Google Korea<br>
+Seoul, Korea<br>
