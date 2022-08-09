@@ -6,6 +6,6 @@ email: sanhaleehana@gmail.com
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0x124B90B9CA4262B1
 position: alumni
 ---
-Software Engineer
-Naver
-Seongnam, Korea
+Software Engineer<br>
+Naver<br>
+Seongnam, Korea<br>

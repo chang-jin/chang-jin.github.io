@@ -6,6 +6,6 @@ email: taegeonum@gmail.com
 pgpkey: http://goo.gl/qzOtyF
 position: alumni
 ---
-Software Engineer
-Samsung Research
-Seoul, Korea
+Software Engineer<br>
+Samsung Research<br>
+Seoul, Korea<br>

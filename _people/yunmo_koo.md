@@ -7,6 +7,6 @@ pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0xA4B462135D853F63
 homepage: kooyunmo.github.io
 position: alumni
 ---
-Software Engineer
-FriendliAI
-Seoul, Korea
+Software Engineer<br>
+FriendliAI<br>
+Seoul, Korea<br>

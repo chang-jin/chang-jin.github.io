@@ -5,6 +5,6 @@ email: rapaellk29@gmail.com
 pgpkey: http://goo.gl/M8e4Iu
 position: alumni
 ---
-Software Engineer
-SAP Labs Korea
-Seoul, Korea
+Software Engineer<br>
+SAP Labs Korea<br>
+Seoul, Korea<br>

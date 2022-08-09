@@ -6,6 +6,6 @@ email: wylee.xyzi@gmail.com
 pgpkey: http://pgp.mit.edu/pks/lookup?op=get&search=0xF4141DFA1EAF93C9
 position: alumni
 ---
-Software Engineer
-Samsung Research
-Seoul, Korea
+Software Engineer<br>
+Samsung Research<br>
+Seoul, Korea<br>

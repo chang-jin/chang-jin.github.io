@@ -7,6 +7,6 @@ pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0x0DD3EEADC75BE10D
 homepage: yunseong.github.io
 position: alumni
 ---
-Staff Engineer
-Qualcomm AI Research
-Seoul, Korea
+Staff Engineer<br>
+Qualcomm AI Research<br>
+Seoul, Korea<br>

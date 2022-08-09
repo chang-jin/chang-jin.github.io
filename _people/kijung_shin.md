@@ -5,6 +5,6 @@ email: kijung.shin89@gmail.com
 pgpkey: http://goo.gl/FIWmy8
 position: alumni
 ---
-Professor
-KAIST
-Daejeon, Korea
+Professor<br>
+KAIST<br>
+Daejeon, Korea<br>

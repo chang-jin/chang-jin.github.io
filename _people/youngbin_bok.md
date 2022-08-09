@@ -5,6 +5,6 @@ email: bokyoungbin@gmail.com
 pgpkey: https://goo.gl/17IoOr
 position: alumni
 ---
-Software Engineer
-SAP Labs Korea
-Seoul, Korea
+Software Engineer<br>
+SAP Labs Korea<br>
+Seoul, Korea<br>

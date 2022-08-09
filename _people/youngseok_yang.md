@@ -7,6 +7,6 @@ pgpkey: http://goo.gl/KKcO9
 homepage: johnyangk.github.io
 position: alumni
 ---
-CEO
-https://mirny.io/
-Seoul, Korea
+CEO<br>
+https://mirny.io/<br>
+Seoul, Korea<br>

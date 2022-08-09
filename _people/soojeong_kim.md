@@ -6,6 +6,6 @@ email: epik03sj@gmail.com
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0xBAE0AA09863F5710
 position: alumni
 ---
-Software Engineer
-FriendliAI
-Seoul, Korea
+Software Engineer<br>
+FriendliAI<br>
+Seoul, Korea<br>
