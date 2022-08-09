@@ -16,9 +16,9 @@ author:
   last_name: ''
 permalink: "/research/"
 ---
-## Current Projects<br>
+<h2>Current Projects</h2><br>
 
-### Artificial Intelligence Platform and Algorithm<br>
+<h3>Artificial Intelligence Platform and Algorithm</h3><br>
 
 <table>
   <tbody>
@@ -28,8 +28,8 @@ permalink: "/research/"
       </td>
       <td>
         <h3>
-          <a href="http://spl.snu.ac.kr/portfolio-items/artificial-intelligence-platform/">Machine Learning Training and Inference</a><br>
-        </h3>
+          <a href="http://spl.snu.ac.kr/portfolio-items/artificial-intelligence-platform/">Machine Learning Training and Inference</a>
+        </h3><br>
         <p>
         In recent years, many systems for machine learning (e.g., TensorFlow, Caffe2, MXNet) have been proposed to support sophisticated deep learning models and a large amount of data. Yet, such systems lack parallelizing machine learning models easily, handling complex neural networks intuitively, tuning system configurations automatically, etc. We perform research on improving the performance and expressiveness of machine learning frameworks.
         </p>
@@ -38,7 +38,7 @@ permalink: "/research/"
   </tbody>
 </table>
 
-### Data Processing Platform<br>
+<h3>Data Processing Platform</h3>
 
 <table>
   <tbody>
@@ -48,15 +48,15 @@ permalink: "/research/"
       </td>
       <td class="second">
         <h3>
-          <a href="http://spl.snu.ac.kr/portfolio-items/big-data-processing/">Flexible and Efficient Data Processing</a><br>
-        </h3>
+          <a href="http://spl.snu.ac.kr/portfolio-items/big-data-processing/">Flexible and Efficient Data Processing</a>
+        </h3><br>
         The data processing system domain has evolved for a wide variety of resource and job characteristics. However, it is hard to evolve current data processing systems to adapt to applications with new resources and job characteristics. To address this problem, we are building a flexible and extensible data processing system, and design various instantiation policies for the system.
       </td>
     </tr>
   </tbody>
 </table>
 
-## Past Projects<br>
+<h2>Past Projects</h2>
 
 <table>
   <tbody>
@@ -66,8 +66,8 @@ permalink: "/research/"
       </td>
       <td class="second">
         <h3>
-          <a href="http://spl.snu.ac.kr/portfolio-items/apache-reef/">Apache REEF</a><br>
-        </h3>
+          <a href="http://spl.snu.ac.kr/portfolio-items/apache-reef/">Apache REEF</a>
+        </h3><br>
         Apache REEF (Retainable Evaluator Execution Framework) is a library that simplifies development of applications running on cluster resource managers. REEF is an Apache Software Foundation (ASF) Top-Level Project (TLP) and being actively developed by committers from many institutions including Microsoft and Seoul National University.
       </td>
     </tr>
@@ -77,8 +77,8 @@ permalink: "/research/"
       </td>
       <td class="second">
         <h3>
-          <a href="http://spl.snu.ac.kr/portfolio-items/stream-processing/">MIST: High-Performance IoT Stream Processing</a><br>
-        </h3>
+          <a href="http://spl.snu.ac.kr/portfolio-items/stream-processing/">MIST: High-Performance IoT Stream Processing</a>
+        </h3><br>
         Stream processing systems are widely used to execute stream queries that extract useful information from data streams at real-time. We focus on a new stream processing system that handles excessive number of stream queries efficiently. Our approach for the efficient execution is to reduce query maintenance overhead, duplicated computations, and imbalance of loads among distributed nodes.
       </td>
     </tr>
@@ -88,8 +88,8 @@ permalink: "/research/"
       </td>
       <td class="second">
         <h3>
-          <a href="http://spl.snu.ac.kr/portfolio-items/security-analysis-and-architecture/">Security Analysis and Architecture</a><br>
-        </h3>
+          <a href="http://spl.snu.ac.kr/portfolio-items/security-analysis-and-architecture/">Security Analysis and Architecture</a>
+        </h3><br>
         We perform research on analyzing mobile applications and malware and coming up with new security architecture for improving mobile security.
       </td>
     </tr>
@@ -99,8 +99,8 @@ permalink: "/research/"
       </td>
       <td class="second">
         <h3>
-          <a href="http://spl.snu.ac.kr/portfolio-items/mobius-unified-messaging-and-data-serving-for-mobile-apps/">Mobile Cloud Computing</a><br>
-        </h3>
+          <a href="http://spl.snu.ac.kr/portfolio-items/mobius-unified-messaging-and-data-serving-for-mobile-apps/">Mobile Cloud Computing</a>
+        </h3><br>
         Mobius & CloneCloud
       </td>
     </tr>
