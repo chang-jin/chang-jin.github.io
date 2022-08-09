@@ -40,7 +40,6 @@ permalink: /people/
 </div>
 
 {% if role == 'professor' %}
-  {% assign people_in_role = people | where: 'position', role %}
   {% assign people_in_role_sorted = people_in_role | sort: 'joined' %}
   {% for profile in people_in_role_sorted %}
     <div class="professor_area">
@@ -67,7 +66,6 @@ permalink: /people/
   {% endfor %}
 {% elsif role != 'alumni' %}
 <div class="content list people">
-  {% assign people_in_role = people | where: 'position', role %}
   {% assign people_in_role_sorted = people_in_role | sort: 'joined' %}
   {% for profile in people_in_role_sorted %}
     <div class="list-item-people">
@@ -87,7 +85,6 @@ permalink: /people/
 </div>
 {% elsif role == 'alumni' %}
 <div class="content list people">
-  {% assign people_in_role = people_sorted | where: 'position', role %}
   {% assign people_in_role_sorted = people_in_role | sort: 'order' | reverse %}
   {% for profile in people_in_role_sorted %}
     <div class="list-item-people">
