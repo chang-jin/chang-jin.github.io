@@ -7,6 +7,6 @@ pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0x7FE8B6E464E29A9E
 homepage: ejjeong.github.io
 position: alumni
 ---
-Software Engineer
+<p>Software Engineer
 Samsung Research
-Seoul, Korea
+Seoul, Korea</p>
