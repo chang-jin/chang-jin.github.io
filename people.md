@@ -11,12 +11,12 @@ permalink: /people/
 ---
 
 <!-- TODO : sort as joined for students -->
-{% assign people_sorted = site.people %}
+{% assign people = site.people %}
 {% assign role_array = "professor|postdoc|phd|ms|intern|alumni" | split: "|" %}
 
 {% for role in role_array %}
 
-{% assign people_in_role = people_sorted | where: 'position', role %}
+{% assign people_in_role = people | where: 'position', role %}
 
 <!-- Skip section if there's nobody -->
 {% if people_in_role.size == 0 %}
@@ -40,34 +40,34 @@ permalink: /people/
 </div>
 
 {% if role == 'professor' %}
-{% for profile in people_sorted %}
-{% if profile.position contains role %}
-<div class="professor_area">
-    <p class="list-post-title">
-      <div class="one_fourth">
-          <img src="{{ profile.picture }}" alt="">
-      </div>
-      <div class="three_fourth last">
-          <div class="person-desc">
-              <div class="person-author person-author-dark clearfix">
-                  <div class="person-author-wrapper">
-                      <span class="person-name">{{ profile.name }}</span>
-                      <span class="person-title"></span>
+  {% assign people_in_role = people | where: 'position', role %}
+  {% assign people_in_role_sorted = people_in_role | sort: 'joined' %}
+  {% for profile in people_in_role_sorted %}
+    <div class="professor_area">
+        <p class="list-post-title">
+          <div class="one_fourth">
+              <img src="{{ profile.picture }}" alt="">
+          </div>
+          <div class="three_fourth last">
+              <div class="person-desc">
+                  <div class="person-author person-author-dark clearfix">
+                      <div class="person-author-wrapper">
+                          <span class="person-name">{{ profile.name }}</span>
+                          <span class="person-title"></span>
+                      </div>
+                      <div class="clear"></div>
                   </div>
-                  <div class="clear"></div>
-              </div>
-              <div class="person-content">
-                {{ profile.content }}
+                  <div class="person-content">
+                    {{ profile.content }}
+                  </div>
               </div>
           </div>
-      </div>
-    </p>
-</div>
-{% endif %}
-{% endfor %}
+        </p>
+    </div>
+  {% endfor %}
 {% elsif role != 'alumni' %}
 <div class="content list people">
-  {% assign people_in_role = people_sorted | where: 'position', role %}
+  {% assign people_in_role = people | where: 'position', role %}
   {% assign people_in_role_sorted = people_in_role | sort: 'joined' %}
   {% for profile in people_in_role_sorted %}
     <div class="list-item-people">
@@ -87,7 +87,7 @@ permalink: /people/
 </div>
 {% elsif role == 'alumni' %}
 <div class="content list people">
-  {% assign people_in_role = people_sorted | where: 'position', role %}
+  {% assign people_in_role = people | where: 'position', role %}
   {% assign people_in_role_sorted = people_in_role | sort: 'order' | reverse %}
   {% for profile in people_in_role_sorted %}
     <div class="list-item-people">

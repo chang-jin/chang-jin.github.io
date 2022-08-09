@@ -5,6 +5,7 @@ email: strayyyyyy@gmail.com
 homepage: https://differentsc.github.io
 pgpkey: http://goo.gl/TZ1Ax6
 position: alumni
+order: 2022
 ---
 Software Engineer<br>
 FriendliAI<br>
