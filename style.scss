@@ -418,10 +418,22 @@ tbody tr:nth-child(odd) th {
 }
 
 .list-item-people {
+    width: 25%;
     display: inline-block;
     padding-left: 0.5em;
     padding-right: 0.5em;
     vertical-align: top;
+}
+
+@media only screen and (max-width: 500px) {
+    .list-item-people {
+        width: 100%;
+    }
+
+    .profile-thumbnail {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .list-post-title img {
@@ -531,4 +543,8 @@ tbody tr:nth-child(odd) th {
     flex: 1;
     position: relative;
     height: 6px;
+}
+
+.space {
+    height: 5rem;
 }

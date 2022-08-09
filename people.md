@@ -107,4 +107,5 @@ permalink: /people/
   {% endfor %}
 </div>
 {% endif %}
+<div class="space"></div>
 {% endfor %}
