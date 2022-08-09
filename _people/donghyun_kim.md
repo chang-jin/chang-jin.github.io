@@ -1,6 +1,6 @@
 ---
 name: Donghyun Kim
-picture: ../assets/people/1584927089322.jpg
+picture: ../assets/people/donghyun.jpg
 email: donghyunkim816@gmail.com
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0x6E0313B98B899BDE
 position: alumni
