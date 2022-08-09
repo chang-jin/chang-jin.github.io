@@ -43,7 +43,6 @@ permalink: /people/
 {% for profile in people_sorted %}
 {% if profile.position contains role %}
 <div class="professor_area">
-  <div class="list-item-people">
     <p class="list-post-title">
       <div class="one_fourth">
           <img src="{{ profile.picture }}" alt="">
@@ -63,7 +62,6 @@ permalink: /people/
           </div>
       </div>
     </p>
-  </div>
 </div>
 {% endif %}
 {% endfor %}

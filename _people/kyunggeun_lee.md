@@ -1,7 +1,6 @@
 ---
 name: Kyunggeun Lee
 picture: ../assets/people/kg_lee.png
-graduated: SNU CSE MS, 2021
 email: gurumo0917@gmail.com
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0xCF6444F5E4FC7762
 position: alumni
@@ -9,3 +8,4 @@ position: alumni
 Software Engineer<br>
 Qualcomm AI Research<br>
 Seoul, Korea<br>
+SNU CSE MS, 2021
