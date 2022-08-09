@@ -9,4 +9,4 @@ position: alumni
 ---
 Software Engineer<br>
 Samsung Research<br>
-Seoul, Korea<<br>
+Seoul, Korea

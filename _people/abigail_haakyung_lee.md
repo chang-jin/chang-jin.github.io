@@ -7,4 +7,4 @@ position: alumni
 ---
 Software Engineer<br>
 Facebook<br>
-California, United States<br>
+California, United States
