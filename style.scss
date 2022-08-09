@@ -415,9 +415,6 @@ tbody tr:nth-child(odd) th {
     width: 22%;
     display: inline-block;
     padding-right: 1em;
-    @media (min-width: 50rem) {
-        width: 100%;
-    }
 }
 
 .list-post-title img {
