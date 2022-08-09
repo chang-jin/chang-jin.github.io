@@ -399,7 +399,7 @@ tbody tr:nth-child(odd) th {
 .pos_header {
     padding-top: 2em;
     padding-left: 0.5em;
-    display: inline-block;
+    display: table;
     flex-direction: column;
     vertical-align: middle;
     width: 100%;
@@ -416,6 +416,7 @@ tbody tr:nth-child(odd) th {
     display: inline-block;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    padding-bottom: 1em;
     vertical-align: top;
 }
 
@@ -520,6 +521,10 @@ tbody tr:nth-child(odd) th {
     width: "100%";
 }
 
+.people-title {
+    display: inline;
+}
+
 .title-sep {
     display: block;
     border-color: #e0dede !important;
@@ -540,5 +545,5 @@ tbody tr:nth-child(odd) th {
 }
 
 .space {
-    height: 5rem;
+    height: 3rem;
 }
