@@ -68,7 +68,7 @@ permalink: /people/
 {% elsif role != 'alumni' %}
 <div class="content list people">
   {% assign people_in_role = people_sorted | where: 'position', role %}
-  {% assign people_in_role_sorted = people_in_role | sort: 'joined' | reverse %}
+  {% assign people_in_role_sorted = people_in_role | sort: 'joined' %}
   {% for profile in people_in_role_sorted %}
     <div class="list-item-people">
       <p class="list-post-title">
@@ -87,8 +87,9 @@ permalink: /people/
 </div>
 {% elsif role == 'alumni' %}
 <div class="content list people">
-  {% for profile in people_sorted | sort: 'order' | reverse %}
-    {% if profile.position contains role %}
+  {% assign people_in_role = people_sorted | where: 'position', role %}
+  {% assign people_in_role_sorted = people_in_role | sort: 'order' | reverse %}
+  {% for profile in people_in_role_sorted %}
       <div class="list-item-people">
         <p class="list-post-title">
           <img class="profile-thumbnail" src="{{ profile.picture }}">
