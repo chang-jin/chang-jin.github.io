@@ -67,22 +67,22 @@ permalink: /people/
 {% endfor %}
 {% elsif role != 'alumni' %}
 <div class="content list people">
-  {% for profile in people_sorted | sort: 'joined' | reverse  %}
-    {% if profile.position contains role %}
-      <div class="list-item-people">
-        <p class="list-post-title">
-          <img class="profile-thumbnail" src="{{profile.picture}}">
-          {{ profile.name }}<br><br>
-          Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
-          {% if profile.pgpkey %}
-            <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
-          {% endif %}
-          {% if profile.homepage %}
-            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
-          {% endif %}
-        </p>
-      </div>
-    {% endif %}
+  {% assign people_in_role = people_sorted | where: 'position', role %}
+  {% assign people_in_role_sorted = people_in_role | sort: 'joined' | reverse %}
+  {% for profile in people_in_role_sorted %}
+    <div class="list-item-people">
+      <p class="list-post-title">
+        <img class="profile-thumbnail" src="{{profile.picture}}">
+        {{ profile.name }}<br><br>
+        Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+        {% if profile.pgpkey %}
+          <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+        {% endif %}
+        {% if profile.homepage %}
+          Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
+        {% endif %}
+      </p>
+    </div>
   {% endfor %}
 </div>
 {% elsif role == 'alumni' %}
