@@ -414,7 +414,9 @@ tbody tr:nth-child(odd) th {
 .list-item-people {
     width: 22%;
     display: inline-block;
-    padding-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    vertical-align: top;
 }
 
 .list-post-title img {
