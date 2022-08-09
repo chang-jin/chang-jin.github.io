@@ -40,56 +40,50 @@ permalink: /people/
 </div>
 
 {% if role == 'professor' %}
-{% for profile in people_sorted %}
-{% if profile.position contains role %}
-<div class="professor_area">
-  <div class="list-item-people">
-    <p class="list-post-title">
-      <div class="one_fourth">
-          <img src="{{ profile.picture }}" alt="">
-      </div>
-      <div class="three_fourth last">
-          <div class="person-desc">
-              <div class="person-author person-author-dark clearfix">
-                  <div class="person-author-wrapper">
-                      <span class="person-name">{{ profile.name }}</span>
-                      <span class="person-title"></span>
-                  </div>
-                  <div class="clear"></div>
-              </div>
-              <div class="person-content">
-                {{ profile.content }}
-              </div>
-          </div>
-      </div>
-    </p>
+  <div class="professor_area">
+    <div class="list-item-people">
+      <p class="list-post-title">
+        <div class="one_fourth">
+            <img src="{{ profile.picture }}" alt="">
+        </div>
+        <div class="three_fourth last">
+            <div class="person-desc">
+                <div class="person-author person-author-dark clearfix">
+                    <div class="person-author-wrapper">
+                        <span class="person-name">{{ profile.name }}</span>
+                        <span class="person-title"></span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="person-content">
+                  {{ profile.content }}
+                </div>
+            </div>
+        </div>
+      </p>
+    </div>
   </div>
-</div>
-{% endif %}
-{% endfor %}
-<hr>
 {% elsif role != 'alumni' %}
-<div class="content list people">
-  {% for profile in people_sorted %}
-    {% if profile.position contains role %}
-      <div class="list-item-people">
-        <p class="list-post-title">
-          <img class="profile-thumbnail" src="{{profile.picture}}">
-          {{ profile.name }}<br><br>
-          Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
-          {% if profile.pgpkey %}
-            <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
-          {% endif %}
-          {% if profile.homepage %}
-            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
-          {% endif %}
-        </p>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
-<hr>
-{% endif %}
+  <div class="content list people">
+    {% for profile in people_sorted %}
+      {% if profile.position contains role %}
+        <div class="list-item-people">
+          <p class="list-post-title">
+            <img class="profile-thumbnail" src="{{profile.picture}}">
+            {{ profile.name }}<br><br>
+            Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+            {% if profile.pgpkey %}
+              <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+            {% endif %}
+            {% if profile.homepage %}
+              Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
+            {% endif %}
+          </p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% elsif role == 'alumni' %}
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
@@ -113,5 +107,6 @@ permalink: /people/
     {% endif %}
   {% endfor %}
 </div>
+{% endif %}
 <hr>
 {% endfor %}
