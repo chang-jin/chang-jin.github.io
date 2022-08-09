@@ -29,13 +29,13 @@ permalink: /people/
   {% elsif role == 'postdoc' %}
   <h3 class="people-title">Postdocs</h3>
   {% elsif role == 'phd' %}
-  <h3>Ph.D.  Students</h3>
+  <h3 class="people-title">Ph.D.  Students</h3>
   {% elsif role == 'ms' %}
-  <h3>M.S.  Students</h3>
+  <h3 class="people-title">M.S.  Students</h3>
   {% elsif role == 'intern' %}
-  <h3>Intern</h3><
+  <h3 class="people-title">>Intern</h3><
   {% elsif role == 'alumni' %}
-  <h3>Alumni</h3>
+  <h3 class="people-title">Alumni</h3>
   {% endif %}
   <div class="title-sep-container">
     <div class="title-sep"></div>
