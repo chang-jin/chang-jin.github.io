@@ -97,10 +97,10 @@ permalink: /people/
         <p class="list-post-title">
           <img class="profile-thumbnail" src="{{profile.picture}}">
           {{ profile.name }}<br><br>
+          {{ profile.content }}<br>
           {% if profile.graduated %}
             {{ profile.graduated }}<br>
           {% endif %}
-          {{ profile.content }}<br>
           Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
           {% if profile.pgpkey %}
             <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
