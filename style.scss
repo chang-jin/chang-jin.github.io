@@ -402,6 +402,7 @@ tbody tr:nth-child(odd) th {
 
 // customization
 .pos_header {
+    padding-top: 1em;
     padding-left: 0.5em;
     display: table;
     flex-direction: column;
@@ -511,11 +512,6 @@ tbody tr:nth-child(odd) th {
 .professor_area {
     flex-direction: column;
     width: "100%";
-}
-
-/* Solid border */
-hr.solid {
-    border-top: 3px solid #bbb;
 }
 
 .title-sep {
