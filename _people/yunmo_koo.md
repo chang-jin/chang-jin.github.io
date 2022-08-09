@@ -5,6 +5,7 @@ email: mpbb03@snu.ac.kr
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0xA4B462135D853F63
 homepage: https://kooyunmo.github.io
 position: alumni
+order: 2022
 ---
 Software Engineer<br>
 FriendliAI<br>

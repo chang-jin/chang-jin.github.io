@@ -4,6 +4,7 @@ picture: ../assets/people/kjshin-profile.jpg
 email: kijung.shin89@gmail.com
 pgpkey: http://goo.gl/FIWmy8
 position: alumni
+order: 3
 ---
 Professor<br>
 KAIST<br>

@@ -4,6 +4,7 @@ picture: ../assets/people/jsryu-profile1.jpg
 email: jaeseong.ryu@gmail.com
 pgpkey: http://goo.gl/QjbOVK
 position: alumni
+order: 4
 ---
 Software Engineer<br>
 KFTC<br>

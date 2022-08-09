@@ -5,6 +5,7 @@ email: yunseong.lee0@gmail.com
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0x0DD3EEADC75BE10D
 homepage: https://yunseong.github.io
 position: alumni
+order: 2020
 ---
 Staff Engineer<br>
 Qualcomm AI Research<br>

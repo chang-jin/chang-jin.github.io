@@ -88,4 +88,6 @@ permalink: "/"
 
 ## Latest Updates
 
-[recent_posts columns="1" number_posts="6" cat_id="" thumbnail="yes" title="yes" meta="yes" excerpt="no"][/recent_posts]
+{% for post in posts limit: 6 %}
+  {{ post.content }}
+{% endfor %}

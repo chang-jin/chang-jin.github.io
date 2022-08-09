@@ -4,6 +4,7 @@ picture: ../assets/people/ajshin.png
 email: aj.shin@snu.ac.kr
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0xA135C52127E0EA3F
 position: alumni
+order: 2021
 ---
 Researcher<br>
 Institute of Computer Technology<br>

@@ -67,7 +67,7 @@ permalink: /people/
 {% endfor %}
 {% elsif role != 'alumni' %}
 <div class="content list people">
-  {% for profile in people_sorted %}
+  {% for profile in people_sorted | sort: 'joined' | reverse  %}
     {% if profile.position contains role %}
       <div class="list-item-people">
         <p class="list-post-title">
@@ -87,7 +87,7 @@ permalink: /people/
 </div>
 {% elsif role == 'alumni' %}
 <div class="content list people">
-  {% for profile in people_sorted %}
+  {% for profile in people_sorted | sort: 'order' | reverse %}
     {% if profile.position contains role %}
       <div class="list-item-people">
         <p class="list-post-title">

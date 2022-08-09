@@ -5,6 +5,7 @@ email: jwnchung@umich.edu
 pgpkey: http://pgp.mit.edu/pks/lookup?op=get&search=0x07169C83FFB0A644
 homepage: https://jaewonchung.me
 position: alumni
+order: 13
 ---
 Graduate Student<br>
 University of Michigan<br>

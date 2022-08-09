@@ -5,6 +5,7 @@ email: egjung49@gmail.com
 pgpkey: https://pgp.mit.edu/pks/lookup?op=get&search=0x7FE8B6E464E29A9E
 homepage: https://ejjeong.github.io
 position: alumni
+order: 2021
 ---
 Software Engineer<br>
 Samsung Research<br>
