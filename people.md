@@ -107,5 +107,4 @@ permalink: /people/
   {% endfor %}
 </div>
 {% endif %}
-<hr class="solid">
 {% endfor %}
