@@ -88,6 +88,6 @@ permalink: "/"
 
 ## Latest Updates
 
-{% for post in posts limit: 6 %}
+{% for post in site.posts limit: 6 %}
   {{ post.content }}
 {% endfor %}
