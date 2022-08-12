@@ -17,7 +17,7 @@ author:
 permalink: "/research/"
 ---
 
-<h2>Current Projects</h2>
+<h2>Current Projects</h2><br>
 <h3>Artificial Intelligence Platform and Algorithm</h3>
 
 <table>
