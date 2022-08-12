@@ -27,7 +27,8 @@ permalink: "/"
   <div class="main_second_column">
     <h2>Latest Updates</h2>
     {% for post in site.posts limit: 6 %}
-      {{ post.content }}
+      <div class="update_contents">{{ post.content }}</div>
+      <div class="update_date">{{ post.date }}</div>
     {% endfor %}
   </div>
 </div>
