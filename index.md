@@ -27,7 +27,7 @@ permalink: "/"
   <div class="main_second_column">
     <h3>Latest Updates</h3>
     {% for post in site.posts limit: 6 %}
-      <div class="update_contents">{{ post.content }}</div>
+      <div class="update_contents">{{ post.title }}</div>
       <div class="update_date">{{ post.date }}</div>
     {% endfor %}
   </div>
@@ -44,11 +44,10 @@ permalink: "/"
 }
 
 .main_first_column {
-    width: 75%;
+    width: 65%;
 }
 
 .main_second_column {
-    width: 25%;
 }
 
 .reading_box {
