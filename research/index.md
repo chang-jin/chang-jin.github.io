@@ -55,7 +55,7 @@ permalink: "/research/"
       </td>
     </tr>
   </tbody>
-</table><br>
+</table>
 
 <h2>Past Projects</h2>
 
