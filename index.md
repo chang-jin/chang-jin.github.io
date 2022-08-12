@@ -28,7 +28,9 @@ permalink: "/"
     <h3>Latest Updates</h3>
     {% for post in site.posts limit: 6 %}
       {% assign currentdate = post.date | date: "%d %B, %Y" %}
-      <div class="update_contents">{{ post.title }}</div>
+      <div class="update_contents">
+        <a href="{{ post.permalink }}">{{ post.title }}</a>
+      </div>
       <div class="update_date">{{ currentDate }}</div>
     {% endfor %}
   </div>
