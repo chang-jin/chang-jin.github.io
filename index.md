@@ -42,7 +42,7 @@ permalink: "/"
 }
 
 .main_page {
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
 }
 
