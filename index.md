@@ -19,7 +19,7 @@ permalink: "/"
 
 <div class="main_page">
   <div class="main_first_column">
-    <img src="./assets/resources/spl_landing_logo.png">>
+    <img src="./assets/resources/spl_landing_logo.png">
     <div class="reading_box">
         At Software Platform Lab (SPL), we work on machine learning systems and algorithms, and data processing systems. We publish our research work at top venues in systems, database, and artificial intelligence. We also contribute to open-source software projects actively.
     </div>
@@ -32,3 +32,29 @@ permalink: "/"
     {% endfor %}
   </div>
 </div>
+
+<style>
+.topics_title {
+    color: #3366ff;
+}
+
+.main_page {
+    flex-direction: column;
+    width: 100%;
+}
+
+.main_first_column {
+    width: 75%;
+}
+
+.main_second_column {
+    width: 25%;
+}
+
+.reading_box {
+    background-color: #f6f6f6;
+    border-left-width: 3px;
+    border-left-color: #12a5f4;
+    border: 0px solid #f6f6f6;
+}
+</style>
