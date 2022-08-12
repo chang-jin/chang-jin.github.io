@@ -14,7 +14,7 @@ author:
   display_name: sychoi
   first_name: ''
   last_name: ''
-permalink: "/research/artificial-intelligence-platform"
+permalink: "/research/artificial-intelligence-platform/"
 ---
 
 <h3 class="topics_title">Nimble: Lightweight and Efficient GPU Task Scheduling for Deep Learning</h3>

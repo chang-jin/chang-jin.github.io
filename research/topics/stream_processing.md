@@ -14,7 +14,7 @@ author:
   display_name: sychoi
   first_name: ''
   last_name: ''
-permalink: "/research/stream-processing"
+permalink: "/research/stream-processing/"
 ---
 Stream processing systems are widely used to execute stream queries that extract useful information from data streams at real-time. We focus on a new stream processing system that handles excessive number of stream queries efficiently. Our approach for the efficient execution is to reduce query maintenance overhead, duplicated computations, and imbalance of loads among distributed nodes.   
 MIST:

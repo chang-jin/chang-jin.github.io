@@ -14,7 +14,7 @@ author:
   display_name: sychoi
   first_name: ''
   last_name: ''
-permalink: "/research/big-data-processing"
+permalink: "/research/big-data-processing/"
 ---
 
 In recent years, the data processing system domain has evolved for a wide variety of resource and job characteristics. However, it is hard to evolve current data processing systems to adapt to applications with new resources and job characteristics. To address this problem, we build a flexible and extensible data processing system, and design various instantiation policies for the system.

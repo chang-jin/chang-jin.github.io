@@ -14,7 +14,7 @@ author:
   display_name: sychoi
   first_name: ''
   last_name: ''
-permalink: "/research/mobius-unified-messaging-and-data-serving-for-mobile-apps"
+permalink: "/research/mobius-unified-messaging-and-data-serving-for-mobile-apps/"
 ---
 
 <img src="../../assets/resources/mobile-cloud.png">

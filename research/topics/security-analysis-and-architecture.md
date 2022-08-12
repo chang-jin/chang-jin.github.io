@@ -14,7 +14,7 @@ author:
   display_name: sychoi
   first_name: ''
   last_name: ''
-permalink: "/research/security-analysis-and-architecture"
+permalink: "/research/security-analysis-and-architecture/"
 ---
 
 We perform research on analyzing mobile applications and malware and coming up with new security architecture for improving mobile security.<br>
