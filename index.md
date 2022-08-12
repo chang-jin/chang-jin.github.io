@@ -27,8 +27,9 @@ permalink: "/"
   <div class="main_second_column">
     <h3>Latest Updates</h3>
     {% for post in site.posts limit: 6 %}
+      {% assign currentdate = post.date | date: "%d %B, %Y" %}
       <div class="update_contents">{{ post.title }}</div>
-      <div class="update_date">{{ post.date }}</div>
+      <div class="update_date">{{ currentDate }}</div>
     {% endfor %}
   </div>
 </div>
@@ -51,6 +52,8 @@ permalink: "/"
 }
 
 .reading_box {
+    margin: 3px;
+    font-size: 1.2rem;
     background-color: #f6f6f6;
     border-left-width: 3px;
     border-left-color: #12a5f4;
