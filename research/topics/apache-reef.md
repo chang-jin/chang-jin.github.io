@@ -14,7 +14,7 @@ author:
   display_name: sychoi
   first_name: ''
   last_name: ''
-permalink: "/research/apache_reef"
+permalink: "/research/apache-reef"
 ---
 
 Apache REEF (Retainable Evaluator Execution Framework) is a library that simplifies development of applications running on cluster resource managers. REEF is an Apache Software Foundation (ASF) Top-Level Project (TLP) and being actively developed by research teams in Seoul National University and Microsoft.
