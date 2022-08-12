@@ -25,3 +25,7 @@ REEF is a layer that provides a convenient environment for developing big data a
 
 
 REEF facilitates integration between data processing applications and existing big data frameworks. Integrating different frameworks and optimizing data processing workflow between them reduce the cost of analytic jobs. In recognition of these benefits, REEF is being used in Microsoft as a core technology in its cloud computing service, Microsoft Azure. Besides Microsoft, REEF is being adopted in various projects of companies and research institutes.
+
+<h3>Publication:</h3>
+<li>Byung-Gon Chun, Tyson Condie, Yingda Chen, Brian Cho, Andrew Chung, Carlo Curino, Chris Douglas, Matteo Interlandi, Beomyeol Jeon, Joo Seong Jeong, Gye-Won Lee, Yunseong Lee, Tony Majestro, Dahlia Malkhi, Sergiy Matusevych, Brandon Myers, Mariia Mykhailova, Shravan Narayanamurthy, Joseph Noor, Raghu Ramakrishnan, Sriram Rao, Russell Sears, Beysim Sezgin, Tae-Geon Um, Julia Wang, Markus Weimer, Markus Weimer, Youngseok Yang. Apache REEF: Retainable Evaluator Execution Framework. ACM Transactions on Computer Systems (TOCS), October 2017.</li>
+<li>Markus Weimer, Yingda Chen, Byung-Gon Chun, Tyson Condie, Carlo Curino, Chris Douglas, Yunseong Lee, Tony Majestro, Dahlia Malkhi, Sergiy Matusevych, Brandon Myers, Shravan Narayanamurthy, Raghu Ramakrishnan, Sriram Rao, Russell Sears, Beysim Sezgin, Julia Wang. REEF: Retainable Evaluator Execution Framework, ACM SIGMOD, 2015.</li>
