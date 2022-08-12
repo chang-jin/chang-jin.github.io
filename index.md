@@ -42,15 +42,17 @@ permalink: "/"
 }
 
 .main_page {
-    flex-direction: column;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: "100%";
 }
 
 .main_first_column {
-    width: 65%;
+    width: "65%";
 }
 
 .main_second_column {
+    flex-grow: 1;
 }
 
 .reading_box {
