@@ -547,3 +547,22 @@ tbody tr:nth-child(odd) th {
 .topics_title {
     color: #3366ff;
 }
+
+.main_page {
+    flex-direction: row;
+}
+
+.main_first_column {
+    width: 75%;
+}
+
+.main_second_column {
+    width: 25%;
+}
+
+.reading_box {
+    background-color: #f6f6f6;
+    border-left-width: 3px;
+    border-left-color: #12a5f4;
+    border: 0px solid #f6f6f6;
+}

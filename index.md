@@ -74,20 +74,20 @@ author:
   last_name: ''
 permalink: "/"
 ---
-![SPL Landing Logo]({{ site.url }}/assets/resources/spl_landing_logo.png)
 
-<div
-  id="reading-box-container-1"
-  class="reading-box-container clearfix">
-  <section
-    class="reading-box "
-    style="background-color: #f6f6f6 !important; border-left-width: 3px !important; border-left-color: #12a5f4!important; border: 0px solid #f6f6f6!important;">
-      At Software Platform Lab (SPL), we work on machine learning systems and algorithms, and data processing systems. We publish our research work at top venues in systems, database, and artificial intelligence. We also contribute to open-source software projects actively.
-  </section>
+<div class="main_page">
+  <div class="main_first_column">
+    <img src="./assets/resources/spl_landing_logo.png">SPL Landing Logo</img>
+    <section
+      class="reading-box "
+      style="">
+        At Software Platform Lab (SPL), we work on machine learning systems and algorithms, and data processing systems. We publish our research work at top venues in systems, database, and artificial intelligence. We also contribute to open-source software projects actively.
+    </section>
+  </div>
+  <div class="main_second_column">
+    <h2>Latest Updates</h2>
+    {% for post in site.posts limit: 6 %}
+      {{ post.content }}
+    {% endfor %}
+  </div>
 </div>
-
-## Latest Updates
-
-{% for post in site.posts limit: 6 %}
-  {{ post.content }}
-{% endfor %}
