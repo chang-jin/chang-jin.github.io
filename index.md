@@ -19,13 +19,13 @@ permalink: "/"
 
 <div class="main_page">
   <div class="main_first_column">
-    <img src="./assets/resources/spl_landing_logo.png">SPL Landing Logo</img>
-    <section class="reading-box">
+    <img src="./assets/resources/spl_landing_logo.png">>
+    <div class="reading_box">
         At Software Platform Lab (SPL), we work on machine learning systems and algorithms, and data processing systems. We publish our research work at top venues in systems, database, and artificial intelligence. We also contribute to open-source software projects actively.
-    </section>
+    </div>
   </div>
   <div class="main_second_column">
-    <h2>Latest Updates</h2>
+    <h3>Latest Updates</h3>
     {% for post in site.posts limit: 6 %}
       <div class="update_contents">{{ post.content }}</div>
       <div class="update_date">{{ post.date }}</div>
