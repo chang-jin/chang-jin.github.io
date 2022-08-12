@@ -52,6 +52,7 @@ permalink: "/"
 }
 
 .main_second_column {
+    padding-left: 1rem;
     flex-grow: 1;
 }
 
