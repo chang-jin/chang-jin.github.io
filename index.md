@@ -31,7 +31,7 @@ permalink: "/"
       <div class="update_contents">
         <a href="{{ post.permalink }}">{{ post.title }}</a>
       </div>
-      <div class="update_date">{{ currentDate }}</div>
+      <div class="update_date">{{ currentdate }}</div>
     {% endfor %}
   </div>
 </div>
