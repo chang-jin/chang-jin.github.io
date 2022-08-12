@@ -14,5 +14,5 @@ author:
   display_name: sychoi
   first_name: ''
   last_name: ''
-permalink: "/research/"
+permalink: "/research/big-data-processing"
 ---

@@ -28,7 +28,7 @@ permalink: "/research/"
       </td>
       <td>
         <h3>
-          <a href="./artificial-intelligence-platform">Machine Learning Training and Inference</a>
+          <a href="./topics/artificial-intelligence-platform">Machine Learning Training and Inference</a>
         </h3><br>
         <p>
         In recent years, many systems for machine learning (e.g., TensorFlow, Caffe2, MXNet) have been proposed to support sophisticated deep learning models and a large amount of data. Yet, such systems lack parallelizing machine learning models easily, handling complex neural networks intuitively, tuning system configurations automatically, etc. We perform research on improving the performance and expressiveness of machine learning frameworks.
