@@ -55,7 +55,7 @@ permalink: "/"
 
 .reading_box {
     margin: 3px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     background-color: #f6f6f6;
     border-left-width: 3px;
     border-left-color: #12a5f4;
