@@ -93,7 +93,7 @@ permalink: /people/
     <div class="list-item-people">
       <p class="list-post-title">
         <img class="profile-thumbnail" src="{{ profile.picture }}">
-        {{ profile.name }}<br><br>
+        <span class="person-name">{{ profile.name }}</span><br><br>
         {{ profile.content }}
         Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
         {% if profile.pgpkey %}

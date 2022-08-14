@@ -11,10 +11,10 @@ git :
 ---
 
 <p>
-Associate Professor, Computer Science and Engineering Department, Seoul National University<br>
+Associate Professor, <a href="https://cse.snu.ac.kr">Computer Science and Engineering Department</a>, Seoul National University<br>
 Associate Director, Artificial Intelligence Institute, Seoul National University<br>
 Co-lead, SNU-Naver Hyperscale AI Center<br>
-CEO, FriendliAI<br>
+CEO, <a href="https://friendliai.ai">FriendliAI</a><br>
 Email : <a href="mailto:{{ page.email }}">{{ page.email }}</a> <a href="{{ page.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
 Homepage : <a href="{{ page.homepage }}" target="_blank" rel="noopener noreferrer">{{ page.homepage }}</a>
 </p>
