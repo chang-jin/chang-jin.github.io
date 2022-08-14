@@ -17,7 +17,7 @@ author:
 permalink: "/publications/"
 ---
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2022</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -45,7 +45,7 @@ Joo Seong Jeong, Jingyu Lee, Donghyun Kim, Changmin Jeon, Changjin Jeong, Youngk
 **SUMNAS: Supernet with Unbiased Meta-Features for Neural Architecture Search [[pdf](https://openreview.net/pdf?id=Z8FzvVU6_Kj)]**  
 Hyeonmin Ha, Ji-Hoon Kim, Semin Park, Byung-Gon Chun. To appear in ICLR 2022.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2021</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -73,7 +73,7 @@ Taegeon Um, Gyewon Lee, Byung-Gon Chun. IEEE 41th International Conference on Di
 **Harmony: A Scheduling Framework Optimized for Multiple Distributed Machine Learning Jobs**  
 Woo-Yeon Lee, Yunseong Lee, Wonwook Song, Youngseok Yang, Joo Yeon Kim, Byung-Gon Chun. IEEE 41th International Conference on Distributed Computing Systems (ICDCS 2021), July 2021.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2020</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -92,7 +92,7 @@ Accelerating Multi-Model Inference by Merging DNNs of Different Weights. arXiv:2
 **Hippo: Taming Hyper-parameter Optimization of Deep Learning with Stage Trees [[pdf](https://arxiv.org/pdf/2006.11972.pdf)]**  
 Ahnjae Shin, Do Yoon Kim, Joo Seong Jeong, Byung-Gon Chun. Hippo: Taming Hyper-parameter Optimization of Deep Learning with Stage Trees. arXiv:2006.11972, June 2020.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2019</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -129,7 +129,7 @@ Soojeong Kim, Gyeong-In Yu, Hojin Park, Sungwoo Cho, Eunji Jeong, Hyeonmin Ha, S
 **JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs  [[pdf](https://www.usenix.org/system/files/nsdi19-jeong.pdf)]**  
 Eunji Jeong, Sungwoo Cho, Gyeong-In Yu, Joo Seong Jeong, Dongjin Shin, Byung-Gon Chun. JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs. 16th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2019), February 2019.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2018</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -157,7 +157,7 @@ Eunji Jeong*, Joo Seong Jeong*, Soojeong Kim, Gyeong-In Yu, Byung-Gon Chun (*equ
 **Towards High-Performance Prediction Serving Systems [[pdf]({{site.url}}/assets/paper/18-sysml-pretzel.pdf)]**  
 Yunseong Lee, Alberto Scolari, Matteo Interlandi, Markus Weimer, Byung-Gon Chun. Towards High-Performance Prediction Serving Systems. SysML Conference, February 2018.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2017</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -182,7 +182,7 @@ Youngseok Yang, Geon-Woo Kim, Won Wook Song, Yunseong Lee, Andrew Chung, Zhengpi
 **Breaking Ad-hoc Runtime Integrity Protection Mechanisms in Android Financial Apps [[pdf]({{site.url}}/assets/paper/p179-kim.pdf)]**
 Taehun Kim, Hyeonmin Ha, Seoyoon Choi, Jaeyeon Jung, Byung-Gon Chun. Breaking Ad-hoc Runtime Integrity Protection Mechanisms in Android Financial Apps. ACM Asia Conference on Computer and Communications Security (ASIACCS 2017), April 2017.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2016</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -195,7 +195,7 @@ Byung-Gon Chun, Brian Cho, Beomyeol Jeon, Joo Seong Jeong, Gunhee Kim, Joo Yeon 
 **Collaborative Analytics for Data Silos**
 Jinkyu Kim, Heonseok Ha, Byung-Gon Chun, Sungroh Yoon, Sang K. Cha. Collaborative Analytics for Data Silos. 32nd IEEE International Conference on Data Engineering (ICDE 2016), May 2016.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2015</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -217,7 +217,7 @@ Joo Seong Jeong, Woo-Yeon Lee, Yunseong Lee, Youngseok Yang, Brian Cho, Byung-Go
 **Making Sense of Performance in Data Analytics Frameworks [[pdf](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-ousterhout.pdf)]**  
 Kay Ousterhout, Ryan Rasti, Sylvia Ratnasamy, Scott Shenker, Byung-Gon Chun. Making Sense of Performance in Data Analytics Frameworks. 12th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2015), May 2015.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2014</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -236,7 +236,7 @@ William Enck, Peter Gilbert, Byung-Gon Chun, Landon P. Cox, Jaeyeon Jung, Patric
 **Reducing Energy Consumption of Smartphones Using User-Perceived Response Time Analysis**  
 Wook Song, Nosub Sung, Byung-Gon Chun, Jihong Kim. Reducing Energy Consumption of Smartphones Using User-Perceived Response Time Analysis. 15th Workshop on Mobile Computing Systems and Applications (HotMobile 2014), February 2014.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2013</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -249,7 +249,7 @@ Byung-Gon Chun, Tyson Condie, Carlo Curino, Chris Douglas, Sergiy Matusevych, Br
 **Mantis: Automatic Performance Prediction for Smartphone Applications**  
 Yongin Kwon, Sangmin Lee, Hayoon Yi, Donghyun Kwon, Seungjun Yang, Byung-Gon Chun, Ling Huang, Petros Maniatis, Mayur Naik, Yunheung Paek. Mantis: Automatic Performance Prediction for Smartphone Applications. 2013 USENIX Annual Technical Conference (ATC 2013), June 2013.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2012</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -262,7 +262,7 @@ Sangjin Han, Scott Marshall, Byung-Gon Chun, Sylvia Ratnasamy. MegaPipe: A New P
 **Mobius: Unified Messaging and Data Service for Mobile Apps**  
 Byung-Gon Chun, Carlo Curino, Russell Sears, Alexander Shraer, Samuel Madden, Raghu Ramakrishnan. Mobius: Unified Messaging and Data Service for Mobile Apps. 10th International Conference on Mobile Systems, Applications, and Services (MobiSys 2012), June 2012.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2011</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -287,7 +287,7 @@ Byung-Gon Chun, Sunghwan Ihm, Petros Maniatis, Mayur Naik, Ashwin Patti. CloneCl
 **Small Trusted Primitives for Dependable Systems**  
 Petros Maniatis, Byung-Gon Chun. Small Trusted Primitives for Dependable Systems. SIGOPS Operating Systems Review, January 2011.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2010</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -306,7 +306,7 @@ Byung-Gon Chun, Petros Maniatis. Dynamically Partitioning Applications between W
 **An Energy Case for Hybrid Datacenters**  
 Byung-Gon Chun, Gianluca Iannaccone, Giuseppe Iannaccone, Randy Katz, Gunho Lee, and Luca Niccolini. An Energy Case for Hybrid Datacenters. SIGOPS Operating Systems Review, March 2010.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2009</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -331,7 +331,7 @@ Byung-Gon Chun, Petros Maniatis, Scott Shenker, and John Kubiatowicz. Tiered Fau
 **Minuet: Rethinking Concurrency Control in Storage Area Networks**  
 Andrey Ermolinskiy, Daekyeong Moon, Byung-Gon Chun, and Scott Shenker. Minuet: Rethinking Concurrency Control in Storage Area Networks. 7th USENIX Conference on File and Storage Technologies (FAST 2009), February 2009.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2008</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -347,7 +347,7 @@ Byung-Gon Chun, Petros Maniatis, and Scott Shenker. Diverse Replication for Sing
 **NetComplex: A Complexity Metric for Networked System Designs**  
 Byung-Gon Chun, Sylvia Ratnasamy, and Eddie Kohler. NetComplex: A Complexity Metric for Networked System Designs. 5th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2008), April 2008.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">2007</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -366,7 +366,7 @@ Cheng Tien Ee, Byung-Gon Chun, Vijay Ramachandran, Kaushik Lakshminarayanan, and
 **Antiquity: Exploiting a Secure Log for Wide-Area Distributed Storage**  
 Hakim Weatherspoon, Patrick Eaton, Byung-Gon Chun, and John Kubiatowicz. Antiquity: Exploiting a Secure Log for Wide-Area Distributed Storage. 2nd European Conference on Computer Systems (EuroSys 2007), March 2007.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title"><= 2006</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>
@@ -400,7 +400,7 @@ Byung-Gon Chun and Mary Baker. Evaluation of Packet Scheduling Algorithms in Mob
 **Auxiliary Timeout and Selective Packet Discard Schemes to Improve TCP Performance in PCN Environment**  
 Byung-Gon Chun and Byeong Gi Lee. Auxiliary Timeout and Selective Packet Discard Schemes to Improve TCP Performance in PCN Environment. IEEE International Conference on Communications (ICC 1997), June 1997.
 
-<div class="pos_header">
+<div class="pub_header">
   <h2 class="people-title">Domestic Publications</h2>
   <div class="title-sep-container">
     <div class="title-sep"></div>

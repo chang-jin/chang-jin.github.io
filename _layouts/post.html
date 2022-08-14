@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-{% assign currentdate = post.date | date: "%B %-d, %Y" %}
+{% assign currentdate = page.date | date: "%B %-d, %Y" %}
 <div class="container content page">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <div class="post-content">{{ content }}</div>
-  <div class="meta-info">
-    By {{ page.author.email }} | {{ currentDate }}
+  <h1 class="post_title">{{ page.title }}</h1>
+  <div class="post_content">{{ content }}</div>
+  <div class="meta_info">
+    <span>By {{ page.author.email }}</span>
+    <span> | </span>
+    <span class="date">{{ currentDate }}</span>
   </div>
 </div>

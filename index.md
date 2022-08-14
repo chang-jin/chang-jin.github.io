@@ -72,13 +72,13 @@ permalink: "/"
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     color: #333333;
     line-height: 27px;
+    margin-block-start: 1em;
 }
 
 .update_date {
     font: 12px/14px 'PTSansItalic', arial, helvetica, sans-serif;
     color: #747474;
     font-style: italic;
-    margin-block-start: 1em;
     margin-block-end: 1em;
 }
 
