@@ -57,11 +57,34 @@ permalink: "/"
 }
 
 .reading_box {
-    margin: 3px;
+    padding: 1rem;
     font-size: 1rem;
     background-color: #f6f6f6;
     border-left-width: 3px;
     border-left-color: #12a5f4;
     border: 0px solid #f6f6f6;
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    color: #333333;
+}
+
+.update_title {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 27px;
+}
+
+.update_date {
+    font: 12px/14px 'PTSansItalic', arial, helvetica, sans-serif;
+    color: #747474;
+    font-style: italic;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.update_contents {
+      color: #333333;
+      font-size: 13px;
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 </style>
