@@ -54,7 +54,7 @@ permalink: /people/
       <div class="person-desc">
         <div class="person-author person-author-dark clearfix">
           <div class="person-author-wrapper">
-            <span class="person-name">{{ profile.name }}</span>
+            <span class="person-name">{{ profile.name }}</span><br><br>
             <span class="person-title"></span>
           </div>
           <div class="clear"></div>
