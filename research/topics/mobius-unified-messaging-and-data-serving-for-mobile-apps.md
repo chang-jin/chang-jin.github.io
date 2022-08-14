@@ -29,5 +29,5 @@ Mobius & CloneCloud<br><br>
 
 <b>Publication</b>
 <li>B.-G. Chun, C. Curino, R. Sears, A. Shraer, S. Madden, and R. Ramakrishnan. <b><a href="http://www.cs.technion.ac.il/~shralex/mud.pdf">“Mobius: Unified messaging and data serving for mobile apps,”</a> In ACM MobiSys,</b> 2012.</li>
-<li>B.-G. Chun, S. Ihm, P. Maniatis, M. Naik, and A. Patti. <b><a href="http://eurosys2011.cs.uni-salzburg.at/pdf/eurosys2011-chun.pdf">“CloneCloud: Elastic execution between mobile device and cloud,” In ACM EuroSys,</b> 2011.</li>
-<li>B.-G. Chun and P. Maniatis. <b><a href="https://www.usenix.org/legacy/events/hotos09/tech/full_papers/chun/chun.pdf">“Augmented smart phone applications through clone cloud execution,” In USENIX HotOS,</b> 2009.</li>
+<li>B.-G. Chun, S. Ihm, P. Maniatis, M. Naik, and A. Patti. <b><a href="http://eurosys2011.cs.uni-salzburg.at/pdf/eurosys2011-chun.pdf">“CloneCloud: Elastic execution between mobile device and cloud,”</a> In ACM EuroSys,</b> 2011.</li>
+<li>B.-G. Chun and P. Maniatis. <b><a href="https://www.usenix.org/legacy/events/hotos09/tech/full_papers/chun/chun.pdf">“Augmented smart phone applications through clone cloud execution,”</a> In USENIX HotOS,</b> 2009.</li>
