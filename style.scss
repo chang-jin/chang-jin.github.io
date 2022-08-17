@@ -477,6 +477,10 @@ tbody tr:nth-child(odd) th {
     font-size: 80%;
 }
 
+.main_first_column {
+    width: 65%;
+}
+
 // fix menu bar spacing for mobile
 @media (max-width: 40em) {
     .navbar-nav > li > a {
@@ -490,6 +494,10 @@ tbody tr:nth-child(odd) th {
     }
 
     .list-item-people {
+        width: 100%;
+    }
+
+    .main_first_column {
         width: 100%;
     }
 
@@ -610,4 +618,51 @@ tbody tr:nth-child(odd) th {
     font: 15px/20px "MuseoSlab500Regular", arial, helvetica, sans-serif;
     margin-block-end: 2em;
     margin-bottom: 2rem;
+}
+
+.topics_title {
+    color: #3366ff;
+}
+
+.main_page {
+    display: flex;
+    flex-direction: row;
+    width: "100%";
+}
+
+.main_second_column {
+    padding-left: 1rem;
+    flex-grow: 1;
+}
+
+.reading_box {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #f6f6f6;
+    border-left-width: 3px;
+    border-left-color: #12a5f4;
+    border: 0px solid #f6f6f6;
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    color: #333333;
+}
+
+.update_title {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 27px;
+    margin-block-start: 1em;
+}
+
+.update_date {
+    font: 12px/14px "PTSansItalic", arial, helvetica, sans-serif;
+    color: #747474;
+    font-style: italic;
+    margin-block-end: 1em;
+}
+
+.update_contents {
+    color: #333333;
+    font-size: 13px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
