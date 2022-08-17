@@ -18,6 +18,10 @@ html {
     font-size: 18px;
     font-weight: 300;
     line-height: 1.6;
+
+    @media (min-width: 38em) {
+        font-size: 20px;
+    }
 }
 
 body {
@@ -25,6 +29,10 @@ body {
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+}
+
+.MathJax_Display {
+    font-size: 80%;
 }
 
 a {
@@ -114,6 +122,11 @@ ul {
         margin-top: 0.25rem;
         margin-bottom: 0.5rem;
     }
+}
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
 }
 
 ol {
@@ -326,7 +339,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .main_first_column {
-    width: 75%;
+    width: 65%;
 }
 
 .main_second_column {
