@@ -17,11 +17,11 @@ author:
 permalink: "/updates/"
 ---
 
-<div>
+<div class="mt-2">
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    <h2 id="y{{currentdate}}">{{ currentdate }}</h2>
+    <h2 class="mb-1 mt-3" id="y{{currentdate}}">{{ currentdate }}</h2>
     {% assign date = currentdate %}
   {% endif %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>

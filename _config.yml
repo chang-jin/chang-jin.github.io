@@ -14,15 +14,15 @@ plugins:
 
 # Navigation
 nav:
-  - name:           "home"
+  - name:           "Home"
     href:           "/"
-  - name:           "people"
+  - name:           "People"
     href:           "/people"
-  - name:           "updates"
+  - name:           "Updates"
     href:           "/updates"
-  - name:           "research"
+  - name:           "Research"
     href:           "/research"
-  - name:           "publications"
+  - name:           "Publications"
     href:           "/publications"
 
 # Sass

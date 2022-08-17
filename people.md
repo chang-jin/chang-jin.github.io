@@ -74,14 +74,16 @@ permalink: /people/
     <div class="list-item-people">
       <p class="list-post-title">
         <img class="profile-thumbnail" src="{{profile.picture}}">
-        <span class="person-name">{{ profile.name }}</span><br><br>
-        Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
-        {% if profile.pgpkey %}
-          <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
-        {% endif %}
-        {% if profile.homepage %}
-          Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
-        {% endif %}
+        <span class="person-name">{{ profile.name }}</span>
+        <p>
+          Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+          {% if profile.pgpkey %}
+            <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+          {% endif %}
+          {% if profile.homepage %}
+            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
+          {% endif %}
+        </p>
       </p>
     </div>
   {% endfor %}
@@ -93,19 +95,22 @@ permalink: /people/
     <div class="list-item-people">
       <p class="list-post-title">
         <img class="profile-thumbnail" src="{{ profile.picture }}">
-        <span class="person-name">{{ profile.name }}</span><br><br>
+        <span class="person-name mb-1">{{ profile.name }}</span>
+        <p>
         {{ profile.content }}
-        Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
-        {% if profile.pgpkey %}
-          <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
-        {% endif %}
-        {% if profile.homepage %}
-          Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
-        {% endif %}
+        </p>
+        <p>
+          Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+          {% if profile.pgpkey %}
+            <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+          {% endif %}
+          {% if profile.homepage %}
+            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
+          {% endif %}
+        </p>
       </p>
     </div>
   {% endfor %}
 </div>
 {% endif %}
-<div class="space"></div>
 {% endfor %}

@@ -29,6 +29,7 @@ body {
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    font-size: 16px;
 }
 
 .MathJax_Display {
@@ -40,7 +41,8 @@ a {
     color: #333;
     &:hover,
     &:focus {
-        color: #268bd2;
+        text-decoration: none;
+        color: #69bbf2;
     }
 }
 
@@ -65,7 +67,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 h3 {
@@ -205,6 +207,7 @@ tbody tr:nth-child(odd) th {
         margin-bottom: 2rem;
     }
 
+    padding-top: 0.5rem;
     padding-bottom: 3rem;
 }
 
@@ -264,8 +267,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .pub_header {
-    padding-top: 2em;
-    padding-left: 0.5em;
+    padding-top: 1em;
     display: flex;
     flex-direction: row;
     vertical-align: middle;
@@ -325,11 +327,9 @@ tbody tr:nth-child(odd) th {
 // change font for navbar
 .navbar,
 .navbar-nav > li > a {
-    background-color: white;
     font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
     font-weight: 400;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 .main_page {
@@ -350,16 +350,6 @@ tbody tr:nth-child(odd) th {
 
 // spacing for mobile
 @media (max-width: 40em) {
-    .navbar-nav > li > a {
-        padding: 0.75em 0 0.5em 2.5em;
-        font-size: 15px;
-    }
-
-    // fix menu scroll along x axis
-    .navbar-nav {
-        margin-right: 15px;
-    }
-
     .list-item-people {
         width: 100%;
     }
@@ -382,11 +372,6 @@ tbody tr:nth-child(odd) th {
         width: 500px;
         height: 500px;
     }
-}
-
-// fix spacing
-.navbar-nav > li {
-    margin-bottom: 0;
 }
 
 // fix menu button for mobile
