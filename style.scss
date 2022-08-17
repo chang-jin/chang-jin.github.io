@@ -335,11 +335,11 @@ tbody tr:nth-child(odd) th {
 .main_page {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: "100%";
 }
 
 .main_first_column {
-    width: 65%;
+    width: "65%";
 }
 
 .main_second_column {
@@ -364,7 +364,12 @@ tbody tr:nth-child(odd) th {
     }
 
     .main_first_column {
-        width: 100%;
+        width: "100%";
+    }
+
+    .main_second_column {
+        padding-top: 2rem;
+        width: "100%";
     }
 
     .main_page {
