@@ -49,3 +49,9 @@ defaults:
       type:         "people"
     values:
       layout:       "profile"
+
+
+collections:
+  people:
+    output: true
+    permalink: /:title
