@@ -16,7 +16,7 @@ author:
   last_name: ''
 permalink: "/research/"
 ---
-<h2 style="width: 100%; padding-bottom: 0.5rem;">Current Projects</h2>
+<h2 class="research_title">Current Projects</h2>
 <h3>Artificial Intelligence Platform and Algorithm</h3>
 
 <table>
@@ -53,7 +53,7 @@ permalink: "/research/"
   </tbody>
 </table>
 
-<h2>Past Projects</h2>
+<h2 class="research_title">Past Projects</h2>
 
 <table>
   <tbody>

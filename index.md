@@ -17,7 +17,7 @@ author:
 permalink: "/"
 ---
 
-<div class="main_page">
+<div class="main_page mt-2">
   <div class="main_first_column">
     <img src="./assets/resources/spl_landing_logo.png">
     <div class="reading_box">
@@ -25,7 +25,7 @@ permalink: "/"
     </div>
   </div>
   <div class="main_second_column">
-    <h3>Latest Updates</h3>
+    <h3 class="mb-3">Latest Updates</h3>
     {% for post in site.posts limit: 6 %}
       {% assign currentdate = post.date | date: "%B %-d, %Y" %}
       <div class="update_contents">

@@ -17,6 +17,7 @@ author:
 permalink: "/research/security-analysis-and-architecture/"
 ---
 
+<br>
 We perform research on analyzing mobile applications and malware and coming up with new security architecture for improving mobile security.<br>
 
 

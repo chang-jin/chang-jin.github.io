@@ -43,12 +43,6 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
-  -
-    scope:
-      path:         ""
-      type:         "people"
-    values:
-      layout:       "profile"
 
 
 collections:

@@ -15,15 +15,15 @@ Associate Professor, <a href="https://cse.snu.ac.kr">Computer Science and Engine
 Associate Director, Artificial Intelligence Institute, Seoul National University<br>
 Co-lead, SNU-Naver Hyperscale AI Center<br>
 CEO, <a href="https://friendliai.ai">FriendliAI</a><br>
-Email : <a href="mailto:{{ page.email }}">{{ page.email }}</a> <a href="{{ page.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
-Homepage : <a href="{{ page.homepage }}" target="_blank" rel="noopener noreferrer">{{ page.homepage }}</a>
+<span class="title_color">Email</span> : <a href="mailto:{{ page.email }}">{{ page.email }}</a> <a href="{{ page.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
+<span class="title_color">Homepage</span> : <a href="{{ page.homepage }}" target="_blank" rel="noopener noreferrer">{{ page.homepage }}</a>
 </p>
-<p>Education<br>
+<p><span class="title_color_bold">Education<br></span>
 2007: Ph.D. Computer Science, University of California, Berkeley<br>
 2002: M.S. Computer Science, Stanford University<br>
 1996: M.S. Electronic Engineering, Seoul National University<br>
 1994: B.S. Electronic Engineering, Seoul National University</p>
-<p>Experience<br>
+<p><span class="title_color_bold">Experience<br></span>
 2020: Visiting Researcher, Naver<br>
 2016: Research Scientist, Facebook Menlo Park<br>
 2012-2013: Principal Scientist, Microsoft Silicon Valley<br>

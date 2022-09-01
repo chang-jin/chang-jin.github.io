@@ -17,6 +17,7 @@ author:
 permalink: "/research/big-data-processing/"
 ---
 
+<br>
 In recent years, the data processing system domain has evolved for a wide variety of resource and job characteristics. However, it is hard to evolve current data processing systems to adapt to applications with new resources and job characteristics. To address this problem, we build a flexible and extensible data processing system, and design various instantiation policies for the system.
 
 <h3 class="topics_title">Apache Nemo</h3>
@@ -35,8 +36,10 @@ Stream processing has been widely used in big data analytics because it provides
 <h3 class="topics_title">Pado</h3>
 Datacenters are under-utilized, primarily due to unused resources on over-provisioned nodes of latency-critical jobs. Such idle resources can be used to run batch data analytic jobs to increase datacenter utilization, but these transient resources must be evicted whenever latency-critical jobs require them again. To solve this problem, we focus on observing the job structure and the relationships between the computations of the job. We carefully mark the computations that are most likely to cause a large number of recomputations upon evictions, to run them reliably using eviction-free reserved resources. This lets us retain corresponding intermediate results effortlessly without any additional checkpointing. We design Pado, a general data processing engine, which carries out our idea with several optimizations that minimize the number of additional reserved nodes.
 
-<b>Publication</b>
-<li>Youngseok Yang, Jeongyoon Eo, Geon-Woo Kim, Joo Yeon Kim, Sanha Lee, Jangho Seo, Won Wook Song, Byung-Gon Chun. Apache Nemo: A Framework for Building Distributed Dataflow Optimization Policies. ATC 2019, July 2019.</li>
-<li>Woo-Yeon Lee, Yunseong Lee, Joo Seong Jeong, Gyeong-In Yu, Joo Yeon Kim, Ho Jin Park, Beomyeol Jeon, Wonwook Song, Gunhee Kim, Markus Weimer, Brian Cho, Byung-Gon Chun. Automating System Configuration of Distributed Machine Learning. ICDCS 2019, July 2019.</li>
-<li>Gyewon Lee, Jeongyoon Eo, Jangho Seo, Taegeon Um, and Byung-Gon Chun. High-Performance Stateful Stream Processing on Solid-State Drives, ApSys, August 2018.</li>
-<li>Youngseok Yang, Geon-Woo Kim, Won Wook Song, Yunseong Lee, Andrew Chung, Zhengping Qian, Brian Cho, Byung-Gon Chun. Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters, EuroSys, April 2017.</li>
+<b class="title_color_bold">Publication</b>
+<ul class="paper_list">
+  <li>Youngseok Yang, Jeongyoon Eo, Geon-Woo Kim, Joo Yeon Kim, Sanha Lee, Jangho Seo, Won Wook Song, Byung-Gon Chun. Apache Nemo: A Framework for Building Distributed Dataflow Optimization Policies. ATC 2019, July 2019.</li>
+  <li>Woo-Yeon Lee, Yunseong Lee, Joo Seong Jeong, Gyeong-In Yu, Joo Yeon Kim, Ho Jin Park, Beomyeol Jeon, Wonwook Song, Gunhee Kim, Markus Weimer, Brian Cho, Byung-Gon Chun. Automating System Configuration of Distributed Machine Learning. ICDCS 2019, July 2019.</li>
+  <li>Gyewon Lee, Jeongyoon Eo, Jangho Seo, Taegeon Um, and Byung-Gon Chun. High-Performance Stateful Stream Processing on Solid-State Drives, ApSys, August 2018.</li>
+  <li>Youngseok Yang, Geon-Woo Kim, Won Wook Song, Yunseong Lee, Andrew Chung, Zhengping Qian, Brian Cho, Byung-Gon Chun. Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters, EuroSys, April 2017.</li>
+</ul>

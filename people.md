@@ -76,12 +76,12 @@ permalink: /people/
         <img class="profile-thumbnail" src="{{profile.picture}}">
         <span class="person-name">{{ profile.name }}</span>
         <p>
-          Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+          <span class="title_color_bold">Email</span> : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
           {% if profile.pgpkey %}
             <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
           {% endif %}
           {% if profile.homepage %}
-            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
+            <span class="title_color_bold">Homepage</span> : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
           {% endif %}
         </p>
       </p>
@@ -100,12 +100,12 @@ permalink: /people/
         {{ profile.content }}
         </p>
         <p>
-          Email : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+          <span class="title_color_bold">Email</span> : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
           {% if profile.pgpkey %}
             <a href="{{ profile.pgpkey }}" target="_blank" rel="noopener noreferrer">(PGP key)</a><br>
           {% endif %}
           {% if profile.homepage %}
-            Homepage : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
+            <span class="title_color_bold">Homepage</span> : <a href="{{ profile.homepage }}" target="_blank" rel="noopener noreferrer">{{ profile.homepage }}</a><br>
           {% endif %}
         </p>
       </p>

@@ -18,6 +18,7 @@ html {
     font-size: 18px;
     font-weight: 300;
     line-height: 1.6;
+    overflow-y: scroll;
 
     @media (min-width: 38em) {
         font-size: 20px;
@@ -107,11 +108,11 @@ dd {
 
 ul {
     font-size: 0.8rem;
-    list-style: inside circle;
-    padding-left: 0;
+    margin-left: 0;
+    padding-left: 3em;
+    list-style-position: outside;
 
     li {
-        color: #747474 !important;
         margin-bottom: 0.25rem;
     }
 
@@ -453,7 +454,7 @@ tbody tr:nth-child(odd) th {
 
 .person-name {
     color: #333333;
-    font: 15px/20px "MuseoSlab500Regular", arial, helvetica, sans-serif;
+    font: 17px/22px "MuseoSlab500Regular", arial, helvetica, sans-serif;
     margin-block-end: 2em;
     margin-bottom: 2rem;
 }
@@ -492,4 +493,21 @@ tbody tr:nth-child(odd) th {
     color: #333333;
     font-size: 13px;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.title_color {
+    color: #000;
+}
+
+.title_color_bold {
+    color: #333333;
+    font-weight: bolder;
+}
+
+.research_title {
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.paper_list {
 }
